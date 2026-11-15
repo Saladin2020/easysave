@@ -1,0 +1,98 @@
+// Thai Village Delivery — branching street dialogue
+// Portraits from Easy Sprite side-view sheets (ton, pa_daeng, lung_mee, ta_phoem)
+@title ต้นส่งของรอบหมู่บ้าน
+@id tvd_delivery
+@start vendor
+@box teak
+@var accepted = false
+@var has_package = false
+@var delivered = false
+@var coins = 0
+@var met_farmer = false
+
+@char kid "ต้น" portrait=ton color=#e85d04
+@char vendor "ป้าแดง" portrait=pa_daeng color=#e5806c side=right
+@char farmer "ลุงมี" portrait=lung_mee color=#79c48a side=right
+@char elder "ตาเพิ่ม" portrait=ta_phoem color=#cdb492 side=right
+
+=== vendor
+if delivered:
+    vendor [happy]: ส่งของให้ตาเพิ่มแล้วสินะ เก่งมากต้น!
+    kid [happy]: ครับป้า! พรุ่งนี้ผมมาช่วยอีกได้ไหม
+    vendor [happy]: ได้เสมอจ้ะ ป้าขอบคุณมาก
+    -> END
+if has_package:
+    vendor [thinking]: รีบไปส่งยาหม่องให้ตาเพิ่มนะจ๊ะ ตาอยู่ท้ายซอยใกล้เสาธง
+    -> END
+if accepted:
+    vendor: พัสดุวางไว้ที่ร้านผลไม้นะจ๊ะ หยิบแล้วเดินไปทางขวาได้เลย
+    -> END
+> เช้าวันเสาร์ ตลาดหน้าหมู่บ้านคึกคักกว่าทุกวัน
+vendor [happy]: ต้นจ๋า มาพอดีเลย ช่วยป้าส่งของหน่อยได้ไหม
+kid [surprised]: ส่งอะไรครับป้าแดง
+vendor: ยาหม่องที่ผู้ใหญ่บ้านฝากมาจ้ะ เอาไปให้ตาเพิ่มที่ท้ายซอย ใกล้เสาธงชาติ
+* ได้เลยครับ! เดี๋ยวผมไปส่งให้
+    vendor [happy]: ขอบใจจ้ะ นี่ค่าขนมสิบบาทนะ หยิบพัสดุที่ร้านผลไม้นะจ๊ะ
+    ~ coins += 10
+    ~ accepted = true
+    -> END
+* ยาหม่องไปท้ายซอยไหนครับ
+    vendor [thinking]: เดินไปทางขวาจนเห็นธงชาติ ตาเพิ่มยืนรออยู่ตรงนั้นจ้ะ
+    * ได้ครับ ผมไปส่งให้
+        vendor [happy]: ขอบใจจ้ะ นี่ค่าขนมสิบบาท หยิบพัสดุที่ร้านผลไม้นะจ๊ะ
+        ~ coins += 10
+        ~ accepted = true
+        -> END
+    * งั้นเดี๋ยวแวะก่อนนะครับ
+        vendor: อย่านานนักนะลูก ของจะรออยู่ที่ร้านผลไม้
+        ~ accepted = true
+        -> END
+* วันนี้ผมไม่ว่างครับ
+    vendor [sad]: ไม่เป็นไรจ้ะ ถ้าเปลี่ยนใจมาหาป้าได้นะ ตาเพิ่มรออยู่จ้ะ
+    -> END
+
+=== farmer
+~ met_farmer = true
+farmer [happy]: เอ้า ต้นนี่เอง สวัสดีหลาน
+if delivered:
+    farmer [happy]: ส่งของครบแล้วเหรอ เก่งนะหลาน
+    kid [happy]: ครับลุง!
+    -> END
+if has_package:
+    farmer [thinking]: นั่นพัสดุของป้าแดงใช่ไหม ตาเพิ่มอยู่ท้ายซอยใกล้เสาธง รีบไปส่งนะ
+    * ครับลุง! ผมไปแล้วนะ
+        farmer [happy]: ไปดีๆ นะหลาน ระวังรถมอเตอร์ไซค์ด้วย
+        -> END
+    * ลุงมีรู้ไหมตาเพิ่มชอบอะไร
+        farmer [happy]: ยาหม่องทาหลังก็ยิ้มกว้างทุกที ไปส่งเร็วเข้า
+        -> END
+farmer: ป้าแดงหาเจ้าอยู่เลยนะ แวะร้านผลไม้ก่อนมั้ยหลาน
+kid: ครับลุง เดี๋ยวผมแวะไปหาป้า
+-> END
+
+=== elder
+if delivered:
+    elder [happy]: ขอบใจอีกครั้งนะหลาน กลับบ้านดีๆ ระวังรถด้วยล่ะ
+    -> END
+if has_package:
+    elder [thinking]: ใครมาน่ะ... อ้อ ต้นนี่เอง
+    kid [happy]: ป้าแดงฝากยาหม่องมาให้ครับตา
+    * ส่งยาหม่องให้ตาเพิ่ม
+        ~ delivered = true
+        ~ has_package = false
+        elder [happy]: โอ้ ยาหม่องของตา ขอบใจมากหลาน ตาให้ค่าขนมเพิ่มอีกห้าบาท
+        ~ coins += 5
+        kid [happy]: ยินดีครับตา!
+        @event package_delivered
+        -> END
+    * แอบดมยาก่อนส่ง
+        elder [surprised]: นั่นยาของตานะ!
+        kid [shy]: ขอโทษครับตา... กลิ่นแรงดีครับ
+        ~ delivered = true
+        ~ has_package = false
+        elder [happy]: ไม่เป็นไร ยังส่งมาถึงก็ดีแล้ว ตาให้ค่าขนมห้าบาท
+        ~ coins += 5
+        @event package_delivered
+        -> END
+elder [thinking]: มาหาตาหรือเปล่าหลาน ป้าแดงมีของฝากมานะ ไปรับที่ร้านผลไม้มาก่อนสิ
+-> END

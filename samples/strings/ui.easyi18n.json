@@ -1,0 +1,439 @@
+{
+  "format": "easyi18n/1",
+  "id": "ui",
+  "source": "th",
+  "locales": [
+    "th",
+    "en",
+    "ms"
+  ],
+  "strings": {
+    "ui.village.hud.coin_text": {
+      "th": "1,250 ฿",
+      "en": "฿1,250",
+      "ms": "฿1,250",
+      "note": "label text",
+      "src": "sources/ui/village.easyui.json"
+    },
+    "ui.village.hud.hint": {
+      "th": "มะม่วงสุก ×5",
+      "en": "Ripe mango ×5",
+      "ms": "Mangga masak ×5",
+      "note": "label text",
+      "src": "sources/ui/village.easyui.json"
+    },
+    "ui.village.hud.hp.label": {
+      "th": "HP",
+      "en": "HP",
+      "ms": "HP",
+      "note": "bar label",
+      "src": "sources/ui/village.easyui.json"
+    },
+    "ui.village.hud.mp.label": {
+      "th": "MP",
+      "en": "MP",
+      "ms": "MP",
+      "note": "bar label",
+      "src": "sources/ui/village.easyui.json"
+    },
+    "ui.village.hud.quest": {
+      "th": "หามะม่วงสุก 3 ลูก ให้ป้าแดงที่ตลาด",
+      "en": "Find 3 ripe mangoes for Auntie Daeng at the market",
+      "ms": "Cari 3 biji mangga masak untuk Mak Cik Daeng di pasar",
+      "note": "tooltip text",
+      "src": "sources/ui/village.easyui.json"
+    },
+    "ui.village.hud.quest.title": {
+      "th": "ภารกิจ: ข้าวเหนียวมะม่วง",
+      "en": "Quest: Mango sticky rice",
+      "ms": "Misi: Pulut mangga",
+      "note": "tooltip title",
+      "src": "sources/ui/village.easyui.json"
+    },
+    "ui.village.hud.xp.label": {
+      "th": "XP",
+      "en": "XP",
+      "ms": "XP",
+      "note": "bar label",
+      "src": "sources/ui/village.easyui.json"
+    },
+    "ui.village.inventory.coin_text": {
+      "th": "1,250 บาท",
+      "en": "1,250 baht",
+      "ms": "1,250 baht",
+      "note": "label text",
+      "src": "sources/ui/village.easyui.json"
+    },
+    "ui.village.inventory.detail": {
+      "th": "มะม่วงสุกหอมหวาน ฟื้นพลัง 20 HP ใช้ทำข้าวเหนียวมะม่วงได้",
+      "en": "Sweet, fragrant ripe mango. Restores 20 HP. Used for mango sticky rice.",
+      "ms": "Mangga masak yang manis dan wangi. Memulihkan 20 HP. Boleh dibuat pulut mangga.",
+      "note": "tooltip text",
+      "src": "sources/ui/village.easyui.json"
+    },
+    "ui.village.inventory.detail.title": {
+      "th": "มะม่วงน้ำดอกไม้",
+      "en": "Nam dok mai mango",
+      "ms": "Mangga nam dok mai",
+      "note": "tooltip title",
+      "src": "sources/ui/village.easyui.json"
+    },
+    "ui.village.inventory.drop": {
+      "th": "ทิ้ง",
+      "en": "Drop",
+      "ms": "Buang",
+      "note": "button text",
+      "src": "sources/ui/village.easyui.json"
+    },
+    "ui.village.inventory.frame.title": {
+      "th": "กระเป๋า",
+      "en": "Bag",
+      "ms": "Beg",
+      "note": "panel title",
+      "src": "sources/ui/village.easyui.json"
+    },
+    "ui.village.inventory.give": {
+      "th": "มอบให้ป้าแดง",
+      "en": "Give to Auntie Daeng",
+      "ms": "Beri kepada Mak Cik Daeng",
+      "note": "button text",
+      "src": "sources/ui/village.easyui.json"
+    },
+    "ui.village.inventory.tabs.tabs.0": {
+      "th": "ทั้งหมด",
+      "en": "All",
+      "ms": "Semua",
+      "note": "tabs tab 1",
+      "src": "sources/ui/village.easyui.json"
+    },
+    "ui.village.inventory.tabs.tabs.1": {
+      "th": "อาหาร",
+      "en": "Food",
+      "ms": "Makanan",
+      "note": "tabs tab 2",
+      "src": "sources/ui/village.easyui.json"
+    },
+    "ui.village.inventory.tabs.tabs.2": {
+      "th": "ของสำคัญ",
+      "en": "Key items",
+      "ms": "Barang penting",
+      "note": "tabs tab 3",
+      "src": "sources/ui/village.easyui.json"
+    },
+    "ui.village.inventory.use": {
+      "th": "ใช้",
+      "en": "Use",
+      "ms": "Guna",
+      "note": "button text",
+      "src": "sources/ui/village.easyui.json"
+    },
+    "ui.village.inventory.weight": {
+      "th": "ช่อง 24/35",
+      "en": "Slots 24/35",
+      "ms": "Slot 24/35",
+      "note": "label text",
+      "src": "sources/ui/village.easyui.json"
+    },
+    "ui.village.pause.pause_menu.0": {
+      "th": "เล่นต่อ",
+      "en": "Resume",
+      "ms": "Sambung",
+      "note": "menu item 1",
+      "src": "sources/ui/village.easyui.json"
+    },
+    "ui.village.pause.pause_menu.1": {
+      "th": "กระเป๋า",
+      "en": "Bag",
+      "ms": "Beg",
+      "note": "menu item 2",
+      "src": "sources/ui/village.easyui.json"
+    },
+    "ui.village.pause.pause_menu.2": {
+      "th": "ตั้งค่า",
+      "en": "Settings",
+      "ms": "Tetapan",
+      "note": "menu item 3",
+      "src": "sources/ui/village.easyui.json"
+    },
+    "ui.village.pause.pause_menu.3": {
+      "th": "บันทึกเกม",
+      "en": "Save game",
+      "ms": "Simpan permainan",
+      "note": "menu item 4",
+      "src": "sources/ui/village.easyui.json"
+    },
+    "ui.village.pause.pause_menu.4": {
+      "th": "กลับหน้าหลัก",
+      "en": "Main menu",
+      "ms": "Menu utama",
+      "note": "menu item 5",
+      "src": "sources/ui/village.easyui.json"
+    },
+    "ui.village.pause.pause_menu.title": {
+      "th": "หยุดชั่วคราว",
+      "en": "Paused",
+      "ms": "Dijeda",
+      "note": "menu title",
+      "src": "sources/ui/village.easyui.json"
+    },
+    "ui.village.pause.tip": {
+      "th": "เคล็ดลับ: ตลาดกลางคืนเปิดหลังพระอาทิตย์ตก",
+      "en": "Tip: the night market opens after sunset",
+      "ms": "Petua: pasar malam dibuka selepas matahari terbenam",
+      "note": "label text",
+      "src": "sources/ui/village.easyui.json"
+    },
+    "ui.village.raya.detail": {
+      "th": "ปลอกใบมะพร้าวสาน ใส่ข้าวแล้วต้มให้สุก กินกับแกงในวันรายอ แบ่งให้เพื่อนบ้านทุกศาสนา",
+      "en": "A woven coconut-leaf case: fill with rice and boil. Eaten with curry on Raya and shared with neighbours of every faith.",
+      "ms": "Sarung daun kelapa yang dianyam: isi dengan beras dan rebus. Dimakan dengan kari pada hari Raya dan dikongsi dengan jiran semua agama.",
+      "note": "tooltip text",
+      "src": "sources/ui/village.easyui.json"
+    },
+    "ui.village.raya.detail.title": {
+      "th": "ตูปะ",
+      "en": "Ketupat",
+      "ms": "Ketupat",
+      "note": "tooltip title",
+      "src": "sources/ui/village.easyui.json"
+    },
+    "ui.village.raya.frame.title": {
+      "th": "เตรียมรายอ",
+      "en": "Getting ready for Raya",
+      "ms": "Persiapan Raya",
+      "note": "panel title",
+      "src": "sources/ui/village.easyui.json"
+    },
+    "ui.village.raya.keep": {
+      "th": "เก็บไว้",
+      "en": "Keep",
+      "ms": "Simpan",
+      "note": "button text",
+      "src": "sources/ui/village.easyui.json"
+    },
+    "ui.village.raya.kind.label": {
+      "th": "น้ำใจ",
+      "en": "Kindness",
+      "ms": "Budi",
+      "note": "bar label",
+      "src": "sources/ui/village.easyui.json"
+    },
+    "ui.village.raya.light": {
+      "th": "จุดปะลิตา",
+      "en": "Light the pelita",
+      "ms": "Nyalakan pelita",
+      "note": "button text",
+      "src": "sources/ui/village.easyui.json"
+    },
+    "ui.village.raya.note": {
+      "th": "สลามัตฮารีรายอ · Selamat Hari Raya",
+      "en": "Selamat Hari Raya",
+      "ms": "Selamat Hari Raya",
+      "note": "label text",
+      "src": "sources/ui/village.easyui.json"
+    },
+    "ui.village.raya.share": {
+      "th": "แบ่งให้เพื่อนบ้าน",
+      "en": "Share with neighbours",
+      "ms": "Kongsi dengan jiran",
+      "note": "button text",
+      "src": "sources/ui/village.easyui.json"
+    },
+    "ui.village.raya.tabs.tabs.0": {
+      "th": "ของรายอ",
+      "en": "Raya items",
+      "ms": "Barang Raya",
+      "note": "tabs tab 1",
+      "src": "sources/ui/village.easyui.json"
+    },
+    "ui.village.raya.tabs.tabs.1": {
+      "th": "อาหาร",
+      "en": "Food",
+      "ms": "Makanan",
+      "note": "tabs tab 2",
+      "src": "sources/ui/village.easyui.json"
+    },
+    "ui.village.raya.tabs.tabs.2": {
+      "th": "ของฝาก",
+      "en": "Gifts",
+      "ms": "Buah tangan",
+      "note": "tabs tab 3",
+      "src": "sources/ui/village.easyui.json"
+    },
+    "ui.village.settings.bigtext": {
+      "th": "ตัวอักษรขนาดใหญ่",
+      "en": "Large text",
+      "ms": "Teks besar",
+      "note": "toggle text",
+      "src": "sources/ui/village.easyui.json"
+    },
+    "ui.village.settings.cancel": {
+      "th": "ยกเลิก",
+      "en": "Cancel",
+      "ms": "Batal",
+      "note": "button text",
+      "src": "sources/ui/village.easyui.json"
+    },
+    "ui.village.settings.frame.title": {
+      "th": "ตั้งค่า",
+      "en": "Settings",
+      "ms": "Tetapan",
+      "note": "panel title",
+      "src": "sources/ui/village.easyui.json"
+    },
+    "ui.village.settings.fullscreen": {
+      "th": "เต็มหน้าจอ",
+      "en": "Fullscreen",
+      "ms": "Skrin penuh",
+      "note": "toggle text",
+      "src": "sources/ui/village.easyui.json"
+    },
+    "ui.village.settings.music": {
+      "th": "เพลง",
+      "en": "Music",
+      "ms": "Muzik",
+      "note": "slider text",
+      "src": "sources/ui/village.easyui.json"
+    },
+    "ui.village.settings.ok": {
+      "th": "ตกลง",
+      "en": "OK",
+      "ms": "OK",
+      "note": "button text",
+      "src": "sources/ui/village.easyui.json"
+    },
+    "ui.village.settings.sfx": {
+      "th": "เสียงประกอบ",
+      "en": "Sound effects",
+      "ms": "Kesan bunyi",
+      "note": "slider text",
+      "src": "sources/ui/village.easyui.json"
+    },
+    "ui.village.settings.tabs.tabs.0": {
+      "th": "เสียง",
+      "en": "Sound",
+      "ms": "Bunyi",
+      "note": "tabs tab 1",
+      "src": "sources/ui/village.easyui.json"
+    },
+    "ui.village.settings.tabs.tabs.1": {
+      "th": "ภาพ",
+      "en": "Video",
+      "ms": "Paparan",
+      "note": "tabs tab 2",
+      "src": "sources/ui/village.easyui.json"
+    },
+    "ui.village.settings.tabs.tabs.2": {
+      "th": "ปุ่มกด",
+      "en": "Controls",
+      "ms": "Kawalan",
+      "note": "tabs tab 3",
+      "src": "sources/ui/village.easyui.json"
+    },
+    "ui.village.settings.voice": {
+      "th": "เสียงพูด",
+      "en": "Voice",
+      "ms": "Suara",
+      "note": "slider text",
+      "src": "sources/ui/village.easyui.json"
+    },
+    "ui.village.shop.buy": {
+      "th": "ซื้อ 25 ฿",
+      "en": "Buy ฿25",
+      "ms": "Beli ฿25",
+      "note": "button text",
+      "src": "sources/ui/village.easyui.json"
+    },
+    "ui.village.shop.frame.title": {
+      "th": "ร้านป้าแดง · ตลาดกลางคืน",
+      "en": "Auntie Daeng's stall · Night market",
+      "ms": "Gerai Mak Cik Daeng · Pasar malam",
+      "note": "panel title",
+      "src": "sources/ui/village.easyui.json"
+    },
+    "ui.village.shop.leave": {
+      "th": "ออกจากร้าน",
+      "en": "Leave shop",
+      "ms": "Keluar kedai",
+      "note": "button text",
+      "src": "sources/ui/village.easyui.json"
+    },
+    "ui.village.shop.price": {
+      "th": "หวานมัน ชื่นใจ ราคา 25 บาท",
+      "en": "Sweet and creamy. 25 baht.",
+      "ms": "Manis dan berlemak. 25 baht.",
+      "note": "tooltip text",
+      "src": "sources/ui/village.easyui.json"
+    },
+    "ui.village.shop.price.title": {
+      "th": "ชาไทยเย็น",
+      "en": "Thai iced tea",
+      "ms": "Teh ais Thai",
+      "note": "tooltip title",
+      "src": "sources/ui/village.easyui.json"
+    },
+    "ui.village.shop.qty": {
+      "th": "จำนวน",
+      "en": "Quantity",
+      "ms": "Kuantiti",
+      "note": "slider text",
+      "src": "sources/ui/village.easyui.json"
+    },
+    "ui.village.shop.wallet.label": {
+      "th": "เงิน",
+      "en": "Money",
+      "ms": "Wang",
+      "note": "bar label",
+      "src": "sources/ui/village.easyui.json"
+    },
+    "ui.village.title.logo": {
+      "th": "ตำนานหมู่บ้านโคมไฟ",
+      "en": "Legend of Lantern Village",
+      "ms": "Lagenda Kampung Tanglung",
+      "note": "label text",
+      "src": "sources/ui/village.easyui.json"
+    },
+    "ui.village.title.main_menu.0": {
+      "th": "เริ่มเกมใหม่",
+      "en": "New game",
+      "ms": "Permainan baharu",
+      "note": "menu item 1",
+      "src": "sources/ui/village.easyui.json"
+    },
+    "ui.village.title.main_menu.1": {
+      "th": "เล่นต่อ",
+      "en": "Continue",
+      "ms": "Teruskan",
+      "note": "menu item 2",
+      "src": "sources/ui/village.easyui.json"
+    },
+    "ui.village.title.main_menu.2": {
+      "th": "ตั้งค่า",
+      "en": "Settings",
+      "ms": "Tetapan",
+      "note": "menu item 3",
+      "src": "sources/ui/village.easyui.json"
+    },
+    "ui.village.title.main_menu.3": {
+      "th": "ออกจากเกม",
+      "en": "Quit",
+      "ms": "Keluar",
+      "note": "menu item 4",
+      "src": "sources/ui/village.easyui.json"
+    },
+    "ui.village.title.subtitle": {
+      "th": "LANTERN VILLAGE",
+      "en": "LANTERN VILLAGE",
+      "ms": "KAMPUNG TANGLUNG",
+      "note": "label text",
+      "src": "sources/ui/village.easyui.json"
+    },
+    "ui.village.title.version": {
+      "th": "v0.1 · กด Enter เพื่อเลือก",
+      "en": "v0.1 · Press Enter to select",
+      "ms": "v0.1 · Tekan Enter untuk pilih",
+      "note": "label text",
+      "src": "sources/ui/village.easyui.json"
+    }
+  }
+}

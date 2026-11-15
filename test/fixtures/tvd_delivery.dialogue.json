@@ -1,0 +1,800 @@
+{
+  "format": "easydialogue/1",
+  "id": "tvd_delivery",
+  "title": "ต้นส่งของรอบหมู่บ้าน",
+  "start": "vendor",
+  "lang": "th",
+  "variables": {
+    "accepted": false,
+    "has_package": false,
+    "delivered": false,
+    "coins": 0,
+    "met_farmer": false
+  },
+  "characters": {
+    "kid": {
+      "id": "kid",
+      "name": "ต้น",
+      "portrait": "ton",
+      "color": "#e85d04"
+    },
+    "vendor": {
+      "id": "vendor",
+      "name": "ป้าแดง",
+      "portrait": "pa_daeng",
+      "color": "#e5806c",
+      "side": "right"
+    },
+    "farmer": {
+      "id": "farmer",
+      "name": "ลุงมี",
+      "portrait": "lung_mee",
+      "color": "#79c48a",
+      "side": "right"
+    },
+    "elder": {
+      "id": "elder",
+      "name": "ตาเพิ่ม",
+      "portrait": "ta_phoem",
+      "color": "#cdb492",
+      "side": "right"
+    }
+  },
+  "nodes": {
+    "vendor": {
+      "id": "vendor",
+      "tags": [],
+      "body": [
+        {
+          "t": "if",
+          "branches": [
+            {
+              "cond": {
+                "k": "var",
+                "n": "delivered"
+              },
+              "body": [
+                {
+                  "t": "line",
+                  "id": "vendor_1",
+                  "speaker": "vendor",
+                  "emotion": "happy",
+                  "text": "ส่งของให้ตาเพิ่มแล้วสินะ เก่งมากต้น!",
+                  "src": 20
+                },
+                {
+                  "t": "line",
+                  "id": "vendor_2",
+                  "speaker": "kid",
+                  "emotion": "happy",
+                  "text": "ครับป้า! พรุ่งนี้ผมมาช่วยอีกได้ไหม",
+                  "src": 21
+                },
+                {
+                  "t": "line",
+                  "id": "vendor_3",
+                  "speaker": "vendor",
+                  "emotion": "happy",
+                  "text": "ได้เสมอจ้ะ ป้าขอบคุณมาก",
+                  "src": 22
+                },
+                {
+                  "t": "end",
+                  "src": 23
+                }
+              ]
+            }
+          ],
+          "src": 19
+        },
+        {
+          "t": "if",
+          "branches": [
+            {
+              "cond": {
+                "k": "var",
+                "n": "has_package"
+              },
+              "body": [
+                {
+                  "t": "line",
+                  "id": "vendor_4",
+                  "speaker": "vendor",
+                  "emotion": "thinking",
+                  "text": "รีบไปส่งยาหม่องให้ตาเพิ่มนะจ๊ะ ตาอยู่ท้ายซอยใกล้เสาธง",
+                  "src": 25
+                },
+                {
+                  "t": "end",
+                  "src": 26
+                }
+              ]
+            }
+          ],
+          "src": 24
+        },
+        {
+          "t": "if",
+          "branches": [
+            {
+              "cond": {
+                "k": "var",
+                "n": "accepted"
+              },
+              "body": [
+                {
+                  "t": "line",
+                  "id": "vendor_5",
+                  "speaker": "vendor",
+                  "text": "พัสดุวางไว้ที่ร้านผลไม้นะจ๊ะ หยิบแล้วเดินไปทางขวาได้เลย",
+                  "src": 28
+                },
+                {
+                  "t": "end",
+                  "src": 29
+                }
+              ]
+            }
+          ],
+          "src": 27
+        },
+        {
+          "t": "line",
+          "id": "vendor_6",
+          "text": "เช้าวันเสาร์ ตลาดหน้าหมู่บ้านคึกคักกว่าทุกวัน",
+          "src": 30
+        },
+        {
+          "t": "line",
+          "id": "vendor_7",
+          "speaker": "vendor",
+          "emotion": "happy",
+          "text": "ต้นจ๋า มาพอดีเลย ช่วยป้าส่งของหน่อยได้ไหม",
+          "src": 31
+        },
+        {
+          "t": "line",
+          "id": "vendor_8",
+          "speaker": "kid",
+          "emotion": "surprised",
+          "text": "ส่งอะไรครับป้าแดง",
+          "src": 32
+        },
+        {
+          "t": "line",
+          "id": "vendor_9",
+          "speaker": "vendor",
+          "text": "ยาหม่องที่ผู้ใหญ่บ้านฝากมาจ้ะ เอาไปให้ตาเพิ่มที่ท้ายซอย ใกล้เสาธงชาติ",
+          "src": 33
+        },
+        {
+          "t": "choice",
+          "options": [
+            {
+              "id": "vendor_c10",
+              "text": "ได้เลยครับ! เดี๋ยวผมไปส่งให้",
+              "body": [
+                {
+                  "t": "line",
+                  "id": "vendor_11",
+                  "speaker": "vendor",
+                  "emotion": "happy",
+                  "text": "ขอบใจจ้ะ นี่ค่าขนมสิบบาทนะ หยิบพัสดุที่ร้านผลไม้นะจ๊ะ",
+                  "src": 35
+                },
+                {
+                  "t": "set",
+                  "var": "coins",
+                  "op": "+=",
+                  "value": {
+                    "k": "num",
+                    "v": 10
+                  },
+                  "src": 36
+                },
+                {
+                  "t": "set",
+                  "var": "accepted",
+                  "op": "=",
+                  "value": {
+                    "k": "bool",
+                    "v": true
+                  },
+                  "src": 37
+                },
+                {
+                  "t": "end",
+                  "src": 38
+                }
+              ],
+              "src": 34
+            },
+            {
+              "id": "vendor_c12",
+              "text": "ยาหม่องไปท้ายซอยไหนครับ",
+              "body": [
+                {
+                  "t": "line",
+                  "id": "vendor_13",
+                  "speaker": "vendor",
+                  "emotion": "thinking",
+                  "text": "เดินไปทางขวาจนเห็นธงชาติ ตาเพิ่มยืนรออยู่ตรงนั้นจ้ะ",
+                  "src": 40
+                },
+                {
+                  "t": "choice",
+                  "options": [
+                    {
+                      "id": "vendor_c14",
+                      "text": "ได้ครับ ผมไปส่งให้",
+                      "body": [
+                        {
+                          "t": "line",
+                          "id": "vendor_15",
+                          "speaker": "vendor",
+                          "emotion": "happy",
+                          "text": "ขอบใจจ้ะ นี่ค่าขนมสิบบาท หยิบพัสดุที่ร้านผลไม้นะจ๊ะ",
+                          "src": 42
+                        },
+                        {
+                          "t": "set",
+                          "var": "coins",
+                          "op": "+=",
+                          "value": {
+                            "k": "num",
+                            "v": 10
+                          },
+                          "src": 43
+                        },
+                        {
+                          "t": "set",
+                          "var": "accepted",
+                          "op": "=",
+                          "value": {
+                            "k": "bool",
+                            "v": true
+                          },
+                          "src": 44
+                        },
+                        {
+                          "t": "end",
+                          "src": 45
+                        }
+                      ],
+                      "src": 41
+                    },
+                    {
+                      "id": "vendor_c16",
+                      "text": "งั้นเดี๋ยวแวะก่อนนะครับ",
+                      "body": [
+                        {
+                          "t": "line",
+                          "id": "vendor_17",
+                          "speaker": "vendor",
+                          "text": "อย่านานนักนะลูก ของจะรออยู่ที่ร้านผลไม้",
+                          "src": 47
+                        },
+                        {
+                          "t": "set",
+                          "var": "accepted",
+                          "op": "=",
+                          "value": {
+                            "k": "bool",
+                            "v": true
+                          },
+                          "src": 48
+                        },
+                        {
+                          "t": "end",
+                          "src": 49
+                        }
+                      ],
+                      "src": 46
+                    }
+                  ],
+                  "src": 41
+                }
+              ],
+              "src": 39
+            },
+            {
+              "id": "vendor_c18",
+              "text": "วันนี้ผมไม่ว่างครับ",
+              "body": [
+                {
+                  "t": "line",
+                  "id": "vendor_19",
+                  "speaker": "vendor",
+                  "emotion": "sad",
+                  "text": "ไม่เป็นไรจ้ะ ถ้าเปลี่ยนใจมาหาป้าได้นะ ตาเพิ่มรออยู่จ้ะ",
+                  "src": 51
+                },
+                {
+                  "t": "end",
+                  "src": 52
+                }
+              ],
+              "src": 50
+            }
+          ],
+          "src": 34
+        }
+      ],
+      "src": 18
+    },
+    "farmer": {
+      "id": "farmer",
+      "tags": [],
+      "body": [
+        {
+          "t": "set",
+          "var": "met_farmer",
+          "op": "=",
+          "value": {
+            "k": "bool",
+            "v": true
+          },
+          "src": 55
+        },
+        {
+          "t": "line",
+          "id": "farmer_1",
+          "speaker": "farmer",
+          "emotion": "happy",
+          "text": "เอ้า ต้นนี่เอง สวัสดีหลาน",
+          "src": 56
+        },
+        {
+          "t": "if",
+          "branches": [
+            {
+              "cond": {
+                "k": "var",
+                "n": "delivered"
+              },
+              "body": [
+                {
+                  "t": "line",
+                  "id": "farmer_2",
+                  "speaker": "farmer",
+                  "emotion": "happy",
+                  "text": "ส่งของครบแล้วเหรอ เก่งนะหลาน",
+                  "src": 58
+                },
+                {
+                  "t": "line",
+                  "id": "farmer_3",
+                  "speaker": "kid",
+                  "emotion": "happy",
+                  "text": "ครับลุง!",
+                  "src": 59
+                },
+                {
+                  "t": "end",
+                  "src": 60
+                }
+              ]
+            }
+          ],
+          "src": 57
+        },
+        {
+          "t": "if",
+          "branches": [
+            {
+              "cond": {
+                "k": "var",
+                "n": "has_package"
+              },
+              "body": [
+                {
+                  "t": "line",
+                  "id": "farmer_4",
+                  "speaker": "farmer",
+                  "emotion": "thinking",
+                  "text": "นั่นพัสดุของป้าแดงใช่ไหม ตาเพิ่มอยู่ท้ายซอยใกล้เสาธง รีบไปส่งนะ",
+                  "src": 62
+                },
+                {
+                  "t": "choice",
+                  "options": [
+                    {
+                      "id": "farmer_c5",
+                      "text": "ครับลุง! ผมไปแล้วนะ",
+                      "body": [
+                        {
+                          "t": "line",
+                          "id": "farmer_6",
+                          "speaker": "farmer",
+                          "emotion": "happy",
+                          "text": "ไปดีๆ นะหลาน ระวังรถมอเตอร์ไซค์ด้วย",
+                          "src": 64
+                        },
+                        {
+                          "t": "end",
+                          "src": 65
+                        }
+                      ],
+                      "src": 63
+                    },
+                    {
+                      "id": "farmer_c7",
+                      "text": "ลุงมีรู้ไหมตาเพิ่มชอบอะไร",
+                      "body": [
+                        {
+                          "t": "line",
+                          "id": "farmer_8",
+                          "speaker": "farmer",
+                          "emotion": "happy",
+                          "text": "ยาหม่องทาหลังก็ยิ้มกว้างทุกที ไปส่งเร็วเข้า",
+                          "src": 67
+                        },
+                        {
+                          "t": "end",
+                          "src": 68
+                        }
+                      ],
+                      "src": 66
+                    }
+                  ],
+                  "src": 63
+                }
+              ]
+            }
+          ],
+          "src": 61
+        },
+        {
+          "t": "line",
+          "id": "farmer_9",
+          "speaker": "farmer",
+          "text": "ป้าแดงหาเจ้าอยู่เลยนะ แวะร้านผลไม้ก่อนมั้ยหลาน",
+          "src": 69
+        },
+        {
+          "t": "line",
+          "id": "farmer_10",
+          "speaker": "kid",
+          "text": "ครับลุง เดี๋ยวผมแวะไปหาป้า",
+          "src": 70
+        },
+        {
+          "t": "end",
+          "src": 71
+        }
+      ],
+      "src": 54
+    },
+    "elder": {
+      "id": "elder",
+      "tags": [],
+      "body": [
+        {
+          "t": "if",
+          "branches": [
+            {
+              "cond": {
+                "k": "var",
+                "n": "delivered"
+              },
+              "body": [
+                {
+                  "t": "line",
+                  "id": "elder_1",
+                  "speaker": "elder",
+                  "emotion": "happy",
+                  "text": "ขอบใจอีกครั้งนะหลาน กลับบ้านดีๆ ระวังรถด้วยล่ะ",
+                  "src": 75
+                },
+                {
+                  "t": "end",
+                  "src": 76
+                }
+              ]
+            }
+          ],
+          "src": 74
+        },
+        {
+          "t": "if",
+          "branches": [
+            {
+              "cond": {
+                "k": "var",
+                "n": "has_package"
+              },
+              "body": [
+                {
+                  "t": "line",
+                  "id": "elder_2",
+                  "speaker": "elder",
+                  "emotion": "thinking",
+                  "text": "ใครมาน่ะ... อ้อ ต้นนี่เอง",
+                  "src": 78
+                },
+                {
+                  "t": "line",
+                  "id": "elder_3",
+                  "speaker": "kid",
+                  "emotion": "happy",
+                  "text": "ป้าแดงฝากยาหม่องมาให้ครับตา",
+                  "src": 79
+                },
+                {
+                  "t": "choice",
+                  "options": [
+                    {
+                      "id": "elder_c4",
+                      "text": "ส่งยาหม่องให้ตาเพิ่ม",
+                      "body": [
+                        {
+                          "t": "set",
+                          "var": "delivered",
+                          "op": "=",
+                          "value": {
+                            "k": "bool",
+                            "v": true
+                          },
+                          "src": 81
+                        },
+                        {
+                          "t": "set",
+                          "var": "has_package",
+                          "op": "=",
+                          "value": {
+                            "k": "bool",
+                            "v": false
+                          },
+                          "src": 82
+                        },
+                        {
+                          "t": "line",
+                          "id": "elder_5",
+                          "speaker": "elder",
+                          "emotion": "happy",
+                          "text": "โอ้ ยาหม่องของตา ขอบใจมากหลาน ตาให้ค่าขนมเพิ่มอีกห้าบาท",
+                          "src": 83
+                        },
+                        {
+                          "t": "set",
+                          "var": "coins",
+                          "op": "+=",
+                          "value": {
+                            "k": "num",
+                            "v": 5
+                          },
+                          "src": 84
+                        },
+                        {
+                          "t": "line",
+                          "id": "elder_6",
+                          "speaker": "kid",
+                          "emotion": "happy",
+                          "text": "ยินดีครับตา!",
+                          "src": 85
+                        },
+                        {
+                          "t": "event",
+                          "name": "event",
+                          "args": [
+                            "package_delivered"
+                          ],
+                          "src": 86
+                        },
+                        {
+                          "t": "end",
+                          "src": 87
+                        }
+                      ],
+                      "src": 80
+                    },
+                    {
+                      "id": "elder_c7",
+                      "text": "แอบดมยาก่อนส่ง",
+                      "body": [
+                        {
+                          "t": "line",
+                          "id": "elder_8",
+                          "speaker": "elder",
+                          "emotion": "surprised",
+                          "text": "นั่นยาของตานะ!",
+                          "src": 89
+                        },
+                        {
+                          "t": "line",
+                          "id": "elder_9",
+                          "speaker": "kid",
+                          "emotion": "shy",
+                          "text": "ขอโทษครับตา... กลิ่นแรงดีครับ",
+                          "src": 90
+                        },
+                        {
+                          "t": "set",
+                          "var": "delivered",
+                          "op": "=",
+                          "value": {
+                            "k": "bool",
+                            "v": true
+                          },
+                          "src": 91
+                        },
+                        {
+                          "t": "set",
+                          "var": "has_package",
+                          "op": "=",
+                          "value": {
+                            "k": "bool",
+                            "v": false
+                          },
+                          "src": 92
+                        },
+                        {
+                          "t": "line",
+                          "id": "elder_10",
+                          "speaker": "elder",
+                          "emotion": "happy",
+                          "text": "ไม่เป็นไร ยังส่งมาถึงก็ดีแล้ว ตาให้ค่าขนมห้าบาท",
+                          "src": 93
+                        },
+                        {
+                          "t": "set",
+                          "var": "coins",
+                          "op": "+=",
+                          "value": {
+                            "k": "num",
+                            "v": 5
+                          },
+                          "src": 94
+                        },
+                        {
+                          "t": "event",
+                          "name": "event",
+                          "args": [
+                            "package_delivered"
+                          ],
+                          "src": 95
+                        },
+                        {
+                          "t": "end",
+                          "src": 96
+                        }
+                      ],
+                      "src": 88
+                    }
+                  ],
+                  "src": 80
+                }
+              ]
+            }
+          ],
+          "src": 77
+        },
+        {
+          "t": "line",
+          "id": "elder_11",
+          "speaker": "elder",
+          "emotion": "thinking",
+          "text": "มาหาตาหรือเปล่าหลาน ป้าแดงมีของฝากมานะ ไปรับที่ร้านผลไม้มาก่อนสิ",
+          "src": 97
+        },
+        {
+          "t": "end",
+          "src": 98
+        }
+      ],
+      "src": 73
+    }
+  },
+  "meta": {
+    "lines": 31,
+    "choices": 4,
+    "generator": "easydialogue 0.1.0"
+  },
+  "box": "teak",
+  "ui": {
+    "style": "teak",
+    "layout": {
+      "viewport": {
+        "width": 480,
+        "height": 270
+      },
+      "box": {
+        "x": 8,
+        "y": 186,
+        "w": 464,
+        "h": 78
+      },
+      "frameMargin": 8,
+      "plateMargin": 5,
+      "wellMargin": 4,
+      "portrait": {
+        "size": 64,
+        "pad": 7
+      },
+      "text": {
+        "padX": 10,
+        "padY": 9,
+        "fontSize": 11,
+        "lineHeight": 17,
+        "maxLines": 3
+      },
+      "plate": {
+        "h": 19,
+        "padX": 9,
+        "fontSize": 10,
+        "offsetY": -12
+      },
+      "choices": {
+        "rowH": 18,
+        "padX": 22,
+        "padY": 8,
+        "gap": 6,
+        "fontSize": 11,
+        "minW": 150
+      },
+      "typewriter": {
+        "cps": 40
+      }
+    },
+    "colors": {
+      "text": "#f7ebd3",
+      "name": "#ffd27a",
+      "plateText": "#1a120b",
+      "choice": "#f7ebd3",
+      "choiceHi": "#ffd27a",
+      "choiceDim": "#97805f",
+      "accent": "#f4ae3d",
+      "shadow": "#0d0906"
+    },
+    "margins": {
+      "box": 8,
+      "plate": 5,
+      "well": 4
+    },
+    "font": "Kanit",
+    "fontName": "Kanit Medium"
+  },
+  "assets": {
+    "frames": {
+      "box": "res://frames/teak/box.png",
+      "plate": "res://frames/teak/plate.png",
+      "well": "res://frames/teak/well.png",
+      "next": "res://frames/teak/next.png",
+      "cursor": "res://frames/teak/cursor.png"
+    },
+    "portraits": {
+      "ton": {
+        "neutral": "res://portraits/ton/neutral.png",
+        "happy": "res://portraits/ton/happy.png",
+        "surprised": "res://portraits/ton/surprised.png",
+        "shy": "res://portraits/ton/shy.png"
+      },
+      "pa_daeng": {
+        "neutral": "res://portraits/pa_daeng/neutral.png",
+        "happy": "res://portraits/pa_daeng/happy.png",
+        "thinking": "res://portraits/pa_daeng/thinking.png",
+        "sad": "res://portraits/pa_daeng/sad.png"
+      },
+      "lung_mee": {
+        "neutral": "res://portraits/lung_mee/neutral.png",
+        "happy": "res://portraits/lung_mee/happy.png",
+        "thinking": "res://portraits/lung_mee/thinking.png"
+      },
+      "ta_phoem": {
+        "neutral": "res://portraits/ta_phoem/neutral.png",
+        "happy": "res://portraits/ta_phoem/happy.png",
+        "thinking": "res://portraits/ta_phoem/thinking.png",
+        "surprised": "res://portraits/ta_phoem/surprised.png"
+      }
+    },
+    "fonts": {
+      "Kanit": "res://fonts/Kanit-Regular.ttf",
+      "Kanit Medium": "res://fonts/Kanit-Medium.ttf"
+    },
+    "fontFiles": {
+      "body": "res://fonts/Kanit-Regular.ttf",
+      "name": "res://fonts/Kanit-Medium.ttf"
+    },
+    "background": "res://background.png"
+  }
+}

@@ -1,0 +1,117 @@
+// สลามเพื่อนบ้าน — Easy Dialogue demo (multicultural village: Buddhist + Muslim + Chinese-Thai)
+// Friends of different faiths help each other after a storm. Cast: Easy Sprite town characters
+// (Thai town cast + Muslim neighbours). @camera targets are the spawns of Easy Tilemap's multicultural_village.
+@title สลามเพื่อนบ้าน
+@id salam_neighbours
+@start market
+@box paper
+@choices grey
+@var greeted_salam = false
+@var helped_tadika = false
+@var helped_temple = false
+@var roti = 0
+
+@char ton "ต้น" portrait=town_kid color=#f4ae3d voice=th_boy
+@char adam "อาดัม" portrait=town_kopiah_boy color=#5fae6e side=right voice=th_boy2
+@char fatimah "ก๊ะฟาตีมะห์" portrait=town_hijab_teacher color=#3fa08a side=right voice=th_teacher
+@char pakcik "ปะจิอิสมะแอ" portrait=town_pak_cik color=#d8d2c0 side=right voice=th_uncle_south
+@char kakna "ก๊ะนะ" portrait=town_roti_seller color=#c8506a side=right voice=th_auntie_south
+@char aisyah "ไอชะฮ์" portrait=town_tadika_girl color=#7ab0e0 side=right voice=th_girl_small
+@char vendor "ป้าแดง" portrait=town_vendor color=#e5806c side=right voice=th_auntie
+@char monk "หลวงพี่" portrait=town_monk color=#f0a030 side=right voice=th_monk
+
+=== market #intro
+@camera market
+> คืนก่อนพายุเข้า เช้านี้ถนนหน้าตลาดยังเปียก ใบมะพร้าวหล่นเต็มทาง
+adam [happy]: ต้น! มาเร็ว ก๊ะนะเพิ่งทอดโรตีเสร็จ
+ton [happy]: อาดัม! เมื่อคืนลมแรงมากเลยนะ บ้านนายเป็นอะไรไหม
+adam [sad]: บ้านไม่เป็นไร แต่หลังคาตาดีกาข้างมัสยิดปลิวไปหลายแผ่น
+> ปะจิอิสมะแอเดินมาจากทางมัสยิด ในมือถือค้อนกับถุงตะปู
+* อัสสะลามุอะลัยกุมครับ ปะจิ
+    ~ greeted_salam = true
+    pakcik [happy]: วะอะลัยกุมุสสะลาม ต้น ทักได้ชัดเจียวนะ ใครสอนล่ะ
+    ton [shy]: อาดัมสอนครับ เขาบอกว่าแปลว่า ขอความสันติสุขจงมีแด่ท่าน
+    pakcik [happy]: ใช่แล้ว เป็นคำอวยพรที่ดี ขอบใจนะหลาน
+* (ไหว้) สวัสดีครับ ปะจิ
+    pakcik [happy]: สวัสดีจ้ะต้น ไหว้สวยเชียว
+    adam: ที่บ้านเราทักกันว่า อัสสะลามุอะลัยกุม แล้วคนตอบก็ว่า วะอะลัยกุมุสสะลาม
+    ton [thinking]: อัส-สะ-ลา-มุ... ไว้ผมฝึกนะครับ
+pakcik [thinking]: วันนี้ปะจิกับก๊ะฟาตีมะห์จะซ่อมหลังคาตาดีกา เด็กๆ จะได้เรียนวันเสาร์-อาทิตย์ได้เหมือนเดิม
+vendor: แต่วันนี้ที่วัดก็ต้องเก็บกวาดศาลานะ เย็นนี้มีงานทำบุญหมู่บ้าน
+ton [thinking]: สองที่เลย... ทำไงดีอาดัม
+adam [happy]: งั้นเราช่วยกันทั้งสองที่สิ เช้าไปตาดีกา บ่ายไปวัด
+* เอาเลย! ไปตาดีกาก่อน -> tadika
+* ไปวัดก่อนดีกว่า หลวงพี่รออยู่ -> temple
+* ผมต้องกลับบ้านไปช่วยแม่ -> busy
+
+=== busy
+ton [sad]: ขอโทษนะอาดัม วันนี้แม่ให้อยู่บ้าน
+adam: ไม่เป็นไร ไว้คราวหน้านะ
+pakcik: ไปเถอะหลาน ช่วยแม่ก็เป็นเรื่องดีเหมือนกัน
+-> END
+
+=== tadika
+@camera tadika
+> ที่ลานหน้าตาดีกา แผ่นสังกะสีกับไม้ระแนงกองอยู่ เด็กๆ ช่วยกันเก็บกิ่งไม้
+fatimah [happy]: อัสสะลามุอะลัยกุม เด็กๆ มาช่วยกันเยอะเลย
+if greeted_salam:
+    ton [happy]: วะอะลัยกุมุสสะลามครับ ก๊ะฟาตีมะห์
+    fatimah [surprised]: โอ้โห ต้นตอบสลามได้ด้วย เก่งมาก
+else:
+    ton: สวัสดีครับ ก๊ะฟาตีมะห์ ผมมาช่วยครับ
+    fatimah [happy]: ขอบใจมากนะต้น
+aisyah [shy]: ก๊ะ... หนังสือของหนูเปียกหมดเลย
+ton [thinking]: เดี๋ยวพี่ช่วยตากให้นะ วางเรียงบนม้านั่งตรงนี้แดดดี
+* ช่วยตากหนังสือกับไอชะฮ์
+    aisyah [happy]: ขอบคุณค่ะพี่ต้น
+* ช่วยปะจิส่งแผ่นสังกะสีขึ้นหลังคา
+    pakcik: ระวังมือนะหลาน ขอบสังกะสีคม
+    ton [happy]: ได้ครับ ผมจับขอบไม้ไว้
+~ helped_tadika = true
+pakcik [happy]: หลังคาเสร็จไปครึ่งหนึ่งแล้ว พรุ่งนี้ถ้าฟ้าเป็นใจ อินชาอัลลอฮ์ จะเสร็จทั้งหมด
+ton [thinking]: อินชาอัลลอฮ์ แปลว่าอะไรครับ
+adam: แปลว่า ถ้าอัลลอฮ์ทรงประสงค์ เราพูดเวลาตั้งใจจะทำอะไรในวันข้างหน้า
+fatimah: ใกล้เที่ยงแล้ว เดี๋ยวเสียงอะซานจากมัสยิดดัง ผู้ใหญ่จะไปละหมาดกันก่อนนะ
+fatimah [happy]: ต้นกับอาดัมไปช่วยที่วัดต่อได้เลย ขอบคุณมากนะ
+@sfx kompang
+if helped_temple:
+    -> raya_roti
+-> temple
+
+=== temple
+@camera temple
+> ลานวัดเต็มไปด้วยใบไม้ ศาลาต้องจัดเก้าอี้สำหรับงานเย็นนี้
+monk [happy]: เจริญพร ต้น พาเพื่อนมาด้วยหรือ
+ton: นี่อาดัมครับหลวงพี่ เพื่อนที่โรงเรียน บ้านอยู่ข้างมัสยิด
+adam [shy]: สวัสดีครับหลวงพี่ ผมมาช่วยยกเก้าอี้ครับ
+monk [happy]: ขอบใจนะหนู ช่วยกันคนละไม้คนละมือ งานก็เสร็จไว
+adam [thinking]: ต้น ในศาลาต้องถอดรองเท้าใช่ไหม
+ton [happy]: ใช่ เหมือนเข้ามัสยิดเลย
+* ช่วยกวาดลานวัด
+    monk: กวาดเป็นวงๆ จากในออกนอกนะ
+* ช่วยยกเก้าอี้เข้าศาลากับอาดัม
+    adam [happy]: หนึ่ง สอง สาม... ยก!
+~ helped_temple = true
+monk [happy]: เรียบร้อยดีแล้ว ฝากขอบใจที่บ้านอาดัมด้วยนะ ที่ส่งหลานมาช่วย
+adam [happy]: ครับหลวงพี่ เมื่อวานพ่อผมก็บอกว่า เพื่อนบ้านต้องช่วยกัน
+if helped_tadika:
+    -> raya_roti
+ton: อาดัม ไปช่วยที่ตาดีกาต่อเถอะ
+-> tadika
+
+=== raya_roti
+@camera market
+> แดดบ่ายเริ่มอ่อน ทั้งสองเดินกลับมาที่ร้านน้ำชาของก๊ะนะ
+kakna [happy]: มาๆ เด็กขยัน ก๊ะทอดโรตีไว้ให้คนละแผ่น ชาชักอีกคนละแก้ว
+~ roti += 2
+ton [happy]: ขอบคุณครับก๊ะนะ
+adam [happy]: ตรีมอกาเซะ ก๊ะ ภาษามลายูแปลว่า ขอบคุณ
+ton [surprised]: ตรีมอกาเซะ! วันนี้ผมได้คำใหม่ตั้งสามคำ
+vendor [happy]: ป้าแดงก็ซื้อขนมจากแผงฮาลาลไปฝากที่ตาดีกาแล้วนะ ทุกคนจะได้กินด้วยกัน
+pakcik [happy]: ใกล้รายอแล้ว ปีนี้มาบ้านปะจินะต้น มาห่อตูปะด้วยกัน
+ton [happy]: อินชาอัลลอฮ์ครับ!
+adam [happy]: ฮ่าๆ ต้นพูดเป็นแล้ว
+if helped_tadika and helped_temple:
+    > วันนั้นทั้งหลังคาตาดีกาและศาลาวัดเสร็จทันเวลา เพราะเพื่อนบ้านทุกศาสนาช่วยกัน
+    @sfx raya_loop
+-> END

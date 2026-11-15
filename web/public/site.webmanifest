@@ -1,0 +1,19 @@
+{
+  "name": "Easy Save",
+  "short_name": "Easy Save",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "480x480",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#9fb4cc",
+  "background_color": "#141820",
+  "display": "standalone"
+}

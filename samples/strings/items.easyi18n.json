@@ -1,0 +1,431 @@
+{
+  "format": "easyi18n/1",
+  "id": "items",
+  "source": "th",
+  "locales": [
+    "th",
+    "en",
+    "ms"
+  ],
+  "strings": {
+    "item.balm.name": {
+      "th": "ยาหม่อง",
+      "en": "Herbal balm",
+      "ms": "Balsem",
+      "note": "item name",
+      "src": "sources/items/village.easyitems.json"
+    },
+    "item.banana.name": {
+      "th": "กล้วยหอม",
+      "en": "Bananas",
+      "ms": "Pisang",
+      "note": "item name",
+      "src": "sources/items/village.easyitems.json"
+    },
+    "item.basket.name": {
+      "th": "ตะกร้าหน้ารถ",
+      "en": "Delivery basket",
+      "ms": "Bakul basikal",
+      "note": "item name",
+      "src": "sources/items/village.easyitems.json"
+    },
+    "item.bicycle.desc": {
+      "th": "ปั่นส่งของได้ไวขึ้นเยอะ",
+      "en": "Deliver much faster",
+      "note": "item description",
+      "src": "sources/items/village.easyitems.json"
+    },
+    "item.bicycle.name": {
+      "th": "จักรยาน",
+      "en": "Bicycle",
+      "ms": "Basikal",
+      "note": "item name",
+      "src": "sources/items/village.easyitems.json"
+    },
+    "item.bike_bell.name": {
+      "th": "กระดิ่งจักรยาน",
+      "en": "Bicycle bell",
+      "ms": "Loceng basikal",
+      "note": "item name",
+      "src": "sources/items/village.easyitems.json"
+    },
+    "item.broom.name": {
+      "th": "ไม้กวาด",
+      "en": "Broom",
+      "ms": "Penyapu",
+      "note": "item name",
+      "src": "sources/items/village.easyitems.json"
+    },
+    "item.bubur.name": {
+      "th": "บูโบ",
+      "en": "Rice porridge",
+      "ms": "Bubur",
+      "note": "item name",
+      "src": "sources/items/raya.easyitems.json"
+    },
+    "item.candle.name": {
+      "th": "เทียน",
+      "en": "Candle",
+      "ms": "Lilin",
+      "note": "item name",
+      "src": "sources/items/village.easyitems.json"
+    },
+    "item.chain.name": {
+      "th": "โซ่จักรยาน",
+      "en": "Bicycle chain",
+      "ms": "Rantai basikal",
+      "note": "item name",
+      "src": "sources/items/village.easyitems.json"
+    },
+    "item.chili.name": {
+      "th": "พริกขี้หนู",
+      "en": "Bird's eye chili",
+      "ms": "Cili padi",
+      "note": "item name",
+      "src": "sources/items/village.easyitems.json"
+    },
+    "item.coconut.name": {
+      "th": "มะพร้าว",
+      "en": "Coconut",
+      "ms": "Kelapa",
+      "note": "item name",
+      "src": "sources/items/village.easyitems.json"
+    },
+    "item.coin_pouch_gift.desc": {
+      "th": "ผู้ใหญ่ให้เด็กๆ วันรายอ",
+      "en": "Elders give these to children at Raya",
+      "note": "item description",
+      "src": "sources/items/raya.easyitems.json"
+    },
+    "item.coin_pouch_gift.name": {
+      "th": "ซองรายอ",
+      "en": "Raya money packet",
+      "ms": "Duit raya",
+      "note": "item name",
+      "src": "sources/items/raya.easyitems.json"
+    },
+    "item.egg.name": {
+      "th": "ไข่ไก่",
+      "en": "Eggs",
+      "ms": "Telur",
+      "note": "item name",
+      "src": "sources/items/village.easyitems.json"
+    },
+    "item.fish_sauce.name": {
+      "th": "น้ำปลา",
+      "en": "Fish sauce",
+      "ms": "Sos ikan",
+      "note": "item name",
+      "src": "sources/items/village.easyitems.json"
+    },
+    "item.garland.name": {
+      "th": "พวงมาลัย",
+      "en": "Jasmine garland",
+      "ms": "Kalung melur",
+      "note": "item name",
+      "src": "sources/items/village.easyitems.json"
+    },
+    "item.kanom_chan.name": {
+      "th": "ขนมชั้น",
+      "en": "Layer cake",
+      "ms": "Kuih lapis",
+      "note": "item name",
+      "src": "sources/items/village.easyitems.json"
+    },
+    "item.ketupat.desc": {
+      "th": "ข้าวหุงในปลอกใบมะพร้าวสาน ของวันรายอ",
+      "en": "Rice cooked in a woven palm-leaf pouch for Raya",
+      "note": "item description",
+      "src": "sources/items/raya.easyitems.json"
+    },
+    "item.ketupat.name": {
+      "th": "ตูปะ",
+      "en": "Ketupat",
+      "ms": "Ketupat",
+      "note": "item name",
+      "src": "sources/items/raya.easyitems.json"
+    },
+    "item.ketupat_shell.name": {
+      "th": "ปลอกตูปะ",
+      "en": "Ketupat shell",
+      "ms": "Sarung ketupat",
+      "note": "item name",
+      "src": "sources/items/raya.easyitems.json"
+    },
+    "item.khom_loi.name": {
+      "th": "โคมลอย",
+      "en": "Sky lantern",
+      "ms": "Tanglung terbang",
+      "note": "item name",
+      "src": "sources/items/village.easyitems.json"
+    },
+    "item.krathong.desc": {
+      "th": "ใบตองกับดอกไม้ ลอยในคืนวันเพ็ญเดือนสิบสอง",
+      "en": "Banana leaf float for Loy Krathong",
+      "note": "item description",
+      "src": "sources/items/village.easyitems.json"
+    },
+    "item.krathong.name": {
+      "th": "กระทง",
+      "en": "Krathong",
+      "ms": "Krathong",
+      "note": "item name",
+      "src": "sources/items/village.easyitems.json"
+    },
+    "item.kurma.desc": {
+      "th": "ละศีลอดด้วยอินทผลัมกับน้ำ",
+      "en": "Break the fast with dates and water",
+      "note": "item description",
+      "src": "sources/items/raya.easyitems.json"
+    },
+    "item.kurma.name": {
+      "th": "อินทผลัม",
+      "en": "Dates",
+      "ms": "Kurma",
+      "note": "item name",
+      "src": "sources/items/raya.easyitems.json"
+    },
+    "item.letter.desc": {
+      "th": "จดหมายจากที่ทำการไปรษณีย์",
+      "en": "Mail from the post office",
+      "note": "item description",
+      "src": "sources/items/village.easyitems.json"
+    },
+    "item.letter.name": {
+      "th": "จดหมาย",
+      "en": "Letter",
+      "ms": "Surat",
+      "note": "item name",
+      "src": "sources/items/village.easyitems.json"
+    },
+    "item.lotus.name": {
+      "th": "ดอกบัว",
+      "en": "Lotus",
+      "ms": "Teratai",
+      "note": "item name",
+      "src": "sources/items/village.easyitems.json"
+    },
+    "item.mango.name": {
+      "th": "มะม่วง",
+      "en": "Mango",
+      "ms": "Mangga",
+      "note": "item name",
+      "src": "sources/items/village.easyitems.json"
+    },
+    "item.mango_sticky_rice.desc": {
+      "th": "ของหวานหน้าร้อน ราดกะทิหอมๆ",
+      "en": "Summer dessert with coconut cream",
+      "note": "item description",
+      "src": "sources/items/village.easyitems.json"
+    },
+    "item.mango_sticky_rice.name": {
+      "th": "ข้าวเหนียวมะม่วง",
+      "en": "Mango sticky rice",
+      "ms": "Pulut mangga",
+      "note": "item name",
+      "src": "sources/items/village.easyitems.json"
+    },
+    "item.morning_glory.name": {
+      "th": "ผักบุ้ง",
+      "en": "Morning glory",
+      "ms": "Kangkung",
+      "note": "item name",
+      "src": "sources/items/village.easyitems.json"
+    },
+    "item.nam_pan.name": {
+      "th": "น้ำปั่น",
+      "en": "Fruit smoothie",
+      "ms": "Jus buah",
+      "note": "item name",
+      "src": "sources/items/village.easyitems.json"
+    },
+    "item.patch_kit.name": {
+      "th": "ชุดปะยาง",
+      "en": "Tire patch kit",
+      "ms": "Kit tampal tayar",
+      "note": "item name",
+      "src": "sources/items/village.easyitems.json"
+    },
+    "item.pelita.desc": {
+      "th": "ตะเกียงไม้ไผ่ จุดหน้าบ้านคืนก่อนรายอ",
+      "en": "Bamboo oil lamp lit before Raya",
+      "note": "item description",
+      "src": "sources/items/raya.easyitems.json"
+    },
+    "item.pelita.name": {
+      "th": "ตะเกียงปะลิตา",
+      "en": "Pelita lamp",
+      "ms": "Pelita",
+      "note": "item name",
+      "src": "sources/items/raya.easyitems.json"
+    },
+    "item.pha_khao_ma.name": {
+      "th": "ผ้าขาวม้า",
+      "en": "Pha khao ma cloth",
+      "ms": "Kain pha khao ma",
+      "note": "item name",
+      "src": "sources/items/village.easyitems.json"
+    },
+    "item.pla_tu.name": {
+      "th": "ปลาทู",
+      "en": "Mackerel",
+      "ms": "Ikan kembung",
+      "note": "item name",
+      "src": "sources/items/village.easyitems.json"
+    },
+    "item.pomelo.name": {
+      "th": "ส้มโอ",
+      "en": "Pomelo",
+      "ms": "Limau bali",
+      "note": "item name",
+      "src": "sources/items/village.easyitems.json"
+    },
+    "item.prayer_mat.desc": {
+      "th": "ผ้าทอเรียบๆ สีเขียว",
+      "en": "A plain green woven mat",
+      "note": "item description",
+      "src": "sources/items/raya.easyitems.json"
+    },
+    "item.prayer_mat.name": {
+      "th": "ผ้าปูละหมาด",
+      "en": "Prayer mat",
+      "ms": "Sejadah",
+      "note": "item name",
+      "src": "sources/items/raya.easyitems.json"
+    },
+    "item.rendang.name": {
+      "th": "เรินดังเนื้อ",
+      "en": "Beef rendang",
+      "ms": "Rendang daging",
+      "note": "item name",
+      "src": "sources/items/raya.easyitems.json"
+    },
+    "item.rice_bag.desc": {
+      "th": "ข้าวหอมมะลิถุงห้ากิโล",
+      "en": "5 kg of jasmine rice",
+      "note": "item description",
+      "src": "sources/items/village.easyitems.json"
+    },
+    "item.rice_bag.name": {
+      "th": "ข้าวสาร",
+      "en": "Rice bag",
+      "ms": "Beras",
+      "note": "item name",
+      "src": "sources/items/village.easyitems.json"
+    },
+    "item.roti.name": {
+      "th": "โรตี",
+      "en": "Roti",
+      "ms": "Roti canai",
+      "note": "item name",
+      "src": "sources/items/raya.easyitems.json"
+    },
+    "item.sarong.name": {
+      "th": "ผ้าโสร่ง",
+      "en": "Kain pelekat sarong",
+      "ms": "Kain pelikat",
+      "note": "item name",
+      "src": "sources/items/raya.easyitems.json"
+    },
+    "item.songkok.name": {
+      "th": "หมวกซงกก",
+      "en": "Songkok",
+      "ms": "Songkok",
+      "note": "item name",
+      "src": "sources/items/raya.easyitems.json"
+    },
+    "item.sticky_rice.name": {
+      "th": "ข้าวเหนียว",
+      "en": "Sticky rice",
+      "ms": "Pulut",
+      "note": "item name",
+      "src": "sources/items/village.easyitems.json"
+    },
+    "item.straw_hat.name": {
+      "th": "หมวกสาน",
+      "en": "Woven hat",
+      "ms": "Topi anyaman",
+      "note": "item name",
+      "src": "sources/items/village.easyitems.json"
+    },
+    "item.teh_tarik.name": {
+      "th": "ชาชัก",
+      "en": "Teh tarik",
+      "ms": "Teh tarik",
+      "note": "item name",
+      "src": "sources/items/raya.easyitems.json"
+    },
+    "item.thai_tea.name": {
+      "th": "ชาเย็น",
+      "en": "Thai iced tea",
+      "ms": "Teh ais Thai",
+      "note": "item name",
+      "src": "sources/items/village.easyitems.json"
+    },
+    "item.umbrella.name": {
+      "th": "ร่มบ่อสร้าง",
+      "en": "Paper umbrella",
+      "ms": "Payung kertas",
+      "note": "item name",
+      "src": "sources/items/village.easyitems.json"
+    },
+    "item.wheel.name": {
+      "th": "ล้อจักรยาน",
+      "en": "Bicycle wheel",
+      "ms": "Roda basikal",
+      "note": "item name",
+      "src": "sources/items/village.easyitems.json"
+    },
+    "recipe.bicycle.name": {
+      "th": "ประกอบจักรยาน",
+      "en": "Assemble a bicycle",
+      "note": "recipe name",
+      "src": "sources/items/village.easyitems.json"
+    },
+    "recipe.ketupat.name": {
+      "th": "หุงตูปะ",
+      "en": "Cook ketupat",
+      "note": "recipe name",
+      "src": "sources/items/raya.easyitems.json"
+    },
+    "recipe.krathong.name": {
+      "th": "ทำกระทง",
+      "en": "Fold a krathong",
+      "note": "recipe name",
+      "src": "sources/items/village.easyitems.json"
+    },
+    "recipe.mango_sticky_rice.name": {
+      "th": "ทำข้าวเหนียวมะม่วง",
+      "en": "Make mango sticky rice",
+      "note": "recipe name",
+      "src": "sources/items/village.easyitems.json"
+    },
+    "recipe.pelita_set.name": {
+      "th": "ทำตะเกียงปะลิตา",
+      "en": "Make pelita lamps",
+      "note": "recipe name",
+      "src": "sources/items/raya.easyitems.json"
+    },
+    "shop.general_store.name": {
+      "th": "ร้านโชห่วย",
+      "en": "General store",
+      "ms": "Kedai runcit",
+      "note": "shop name",
+      "src": "sources/items/village.easyitems.json"
+    },
+    "shop.market.name": {
+      "th": "ตลาดเช้า",
+      "en": "Morning market",
+      "ms": "Pasar pagi",
+      "note": "shop name",
+      "src": "sources/items/village.easyitems.json"
+    },
+    "shop.raya_bazaar.name": {
+      "th": "ตลาดรายอ",
+      "en": "Raya bazaar",
+      "ms": "Bazar Raya",
+      "note": "shop name",
+      "src": "sources/items/raya.easyitems.json"
+    }
+  }
+}

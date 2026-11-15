@@ -1,0 +1,89 @@
+{
+  "format": "easysave/1",
+  "id": "village_delivery",
+  "name": { "th": "ต้นส่งของรอบหมู่บ้าน", "en": "Ton's village deliveries", "ms": "Penghantaran Ton di kampung" },
+  "version": 3,
+  "slots": { "manual": 3, "quick": true, "autosave": { "intervalSec": 120, "keep": 2 } },
+  "fields": {
+    "player": {
+      "type": "object",
+      "fields": {
+        "name": { "type": "string", "default": "ต้น", "maxLength": 16 },
+        "money": { "type": "int", "default": 0, "min": 0, "desc": "Baht (Easy Quest flag coins)" },
+        "scene": { "type": "string", "default": "market", "desc": "Easy Tilemap spawn / Easy Scene id" },
+        "pos": { "type": "object", "fields": { "x": { "type": "float", "default": 0 }, "y": { "type": "float", "default": 0 } } },
+        "facing": { "type": "enum", "values": ["down", "up", "left", "right"], "default": "down" },
+        "bike": { "type": "enum", "values": ["none", "rusty", "fixed"], "default": "none" }
+      }
+    },
+    "day": { "type": "int", "default": 1, "min": 1 },
+    "time_of_day": { "type": "enum", "values": ["morning", "noon", "evening", "night"], "default": "morning" },
+    "quests": {
+      "type": "object",
+      "desc": "Easy Quest runner state",
+      "fields": {
+        "active": { "type": "list", "of": { "type": "string" } },
+        "done": { "type": "list", "of": { "type": "string" } },
+        "steps": { "type": "map", "of": { "type": "list", "of": { "type": "string" } }, "desc": "quest id → finished step ids" },
+        "vars": { "type": "map", "of": { "type": "scalar" }, "desc": "quest and dialogue variables (delivered, coins, mango…)" }
+      }
+    },
+    "items": { "type": "any", "default": {}, "desc": "Easy Items Items.to_dict() (bag, equipment, shop stock)" },
+    "flags": { "type": "map", "of": { "type": "bool" } },
+    "deliveries": {
+      "type": "list",
+      "max": 50,
+      "of": { "type": "object", "fields": { "to": { "type": "string" }, "item": { "type": "string" }, "done": { "type": "bool", "default": false } } }
+    },
+    "settings": {
+      "type": "object",
+      "fields": {
+        "locale": { "type": "enum", "values": ["th", "en", "ms"], "default": "th" },
+        "text_speed": { "type": "int", "default": 2, "min": 1, "max": 3 },
+        "music": { "type": "float", "default": 0.8, "min": 0, "max": 1 },
+        "sfx": { "type": "float", "default": 0.8, "min": 0, "max": 1 },
+        "big_text": { "type": "bool", "default": false }
+      }
+    },
+    "stats": {
+      "type": "object",
+      "fields": {
+        "playtime": { "type": "int", "default": 0, "min": 0, "desc": "seconds" },
+        "max_money": { "type": "int", "default": 0, "min": 0 },
+        "saves": { "type": "int", "default": 0, "min": 0 }
+      }
+    }
+  },
+  "migrations": [
+    {
+      "from": 1,
+      "to": 2,
+      "note": "v0.2: several active quests, player position grouped, language setting",
+      "ops": [
+        { "op": "rename", "from": "quest", "to": "quests.active" },
+        { "op": "wrap", "path": "quests.active" },
+        { "op": "add", "path": "quests.done", "value": [] },
+        { "op": "rename", "from": "vars", "to": "quests.vars" },
+        { "op": "rename", "from": "player.x", "to": "player.pos.x" },
+        { "op": "rename", "from": "player.y", "to": "player.pos.y" },
+        { "op": "add", "path": "settings.locale", "value": "th" }
+      ]
+    },
+    {
+      "from": 2,
+      "to": 3,
+      "note": "v0.3: coins → money, numeric text speed, yes/no flags → booleans, deliveries list",
+      "ops": [
+        { "op": "rename", "from": "player.coins", "to": "player.money" },
+        { "op": "map", "path": "settings.text_speed", "values": { "slow": 1, "normal": 2, "fast": 3 } },
+        { "op": "map", "path": "flags.*", "values": { "yes": true, "no": false } },
+        { "op": "delete", "path": "player.debug" },
+        { "op": "copy", "from": "player.money", "to": "stats.max_money" },
+        { "op": "rename", "from": "orders", "to": "deliveries" },
+        { "op": "rename", "from": "deliveries.*.customer", "to": "deliveries.*.to" },
+        { "op": "add", "path": "deliveries.*.done", "value": false },
+        { "op": "add", "path": "day", "value": 1 }
+      ]
+    }
+  ]
+}

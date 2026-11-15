@@ -1,0 +1,72 @@
+// รอมฎอนถึงรายอ — Easy Quest demo for the multicultural village, linked to ramadan_raya.ezd
+// ต้น (Buddhist) helps his Muslim neighbours: iftar sharing in Ramadan, then Hari Raya (รายอ) preparation and visit.
+// The dialogue fires @camera market / mosque / tadika, @iftar, @raya prep, @pelita lit, @maaf and @sfx raya_loop,
+// and owns gave_kurma, ketupat, greeted_raya, shared_ketupat. Places are spawns of Easy Tilemap's multicultural_village.
+@title รอมฎอนถึงรายอ
+@id ramadan_raya
+@dialogue ramadan_raya
+
+@flag kindness = 0 label="น้ำใจ" icon=heart
+@flag ketupat = 0 label="ตูปะ" icon=ketupat
+
+@item bubur "บูโบ" icon=bubur desc="ข้าวต้มสำหรับละศีลอด ฝีมือก๊ะนะ"
+@item kurma "อินทผลัม" icon=kurma desc="ละศีลอดด้วยอินทผลัมกับน้ำ"
+@item pomelo "ส้มโอ" icon=mango desc="ป้าแดงฝากไปแบ่งกันที่มัสยิด"
+@item ketupat_shell "ตูปะ" icon=ketupat desc="ปลอกใบมะพร้าวสาน สำหรับหุงข้าววันรายอ"
+@item pelita "ตะเกียงปะลิตา" icon=pelita desc="ตะเกียงไม้ไผ่ จุดหน้าบ้านคืนก่อนรายอ"
+
+=== iftar_share "แบ่งอาหารละศีลอด"
+giver kakna
+summary ช่วยก๊ะนะกับป้าแดงส่งอาหารละศีลอดไปที่มัสยิด
+start on camera market
+fail on end ramadan_raya
+on start:
+    give bubur
+    give kurma
+    give pomelo
+step mosque "นำบูโบกับส้มโอไปส่งที่ลานมัสยิด"
+    done on camera mosque
+    hint มัสยิดไม้อยู่ทางทิศตะวันออกเฉียงเหนือ เลยตลาดไป
+    take bubur
+    take pomelo
+step kurma "ยื่นอินทผลัมให้ปะจิอิสมะแอ"
+    done when gave_kurma
+    take kurma
+step iftar "อยู่จนถึงเวลาละศีลอด"
+    done on iftar
+    hint ตะวันตกดินแล้วจะได้ยินเสียงอะซานจากมัสยิด
+reward:
+    ~ kindness += 1
+
+=== raya_prep "เตรียมรายอ"
+giver pakcik
+summary สานตูปะแล้ว {ketupat}/3 ลูก คืนนี้จุดตะเกียงปะลิตา
+requires done(iftar_share)
+start on raya prep
+step weave "สานตูปะกับปะจิให้ครบ 3 ลูก"
+    done when ketupat >= 3
+    hint ที่ลานหน้าตาดีกา
+    give ketupat_shell 3
+step pelita "ช่วยก๊ะฟาตีมะห์จุดตะเกียงปะลิตา"
+    done on pelita lit
+    give pelita
+bonus neat "สานตูปะอย่างตั้งใจ (ได้ 4 ลูก)"
+    done when ketupat >= 4
+reward:
+    ~ kindness += 1
+
+=== raya_visit "วันรายอ"
+giver adam
+summary อวยพรวันรายอ ขอมาอัฟ แล้วเอาตูปะไปแบ่งเพื่อนบ้าน
+requires done(raya_prep)
+start on camera mosque
+step greet "อวยพรวันรายอกับอาดัม"
+    done when greeted_raya
+step maaf "ขอมาอัฟ (ขออภัยกัน)"
+    done on maaf
+step share "เอาตูปะไปฝากตาเพิ่มกับป้าแดง"
+    done when shared_ketupat
+    take ketupat_shell 2
+reward:
+    ~ kindness += 2
+    @sfx raya_loop

@@ -1,0 +1,26 @@
+# key	th	en	ms	note   (the save / load / language screen; sample table "save_ui")
+save.title	บันทึกเกม	Save game	Simpan permainan	screen title
+save.load_title	โหลดเกม	Load game	Muat permainan	screen title
+save.slot	ช่องที่ {n}	Slot {n}	Slot {n}	manual slot name
+save.quick	บันทึกด่วน	Quick save	Simpan pantas	quick slot name
+save.auto	บันทึกอัตโนมัติ {n}	Autosave {n}	Simpanan auto {n}	autosave slot name
+save.empty	ว่าง	Empty	Kosong	empty slot
+save.day	วันที่ {day}	Day {day}	Hari {day}	slot summary
+save.money	{money} บาท	{money} baht	{money} baht	slot summary
+save.playtime	เล่นไป {h} ชม. {m} นาที	Played {h} h {m} min	Main {h} jam {m} min	slot summary
+save.saved	บันทึกแล้ว	Saved	Disimpan	toast
+save.loaded	โหลดแล้ว	Loaded	Dimuatkan	toast
+save.autosaving	กำลังบันทึกอัตโนมัติ…	Autosaving…	Menyimpan secara auto…	toast
+save.overwrite	บันทึกทับช่องที่ {n} ไหม	Overwrite slot {n}?	Tulis ganti slot {n}?	confirm
+save.delete	ลบเซฟนี้ไหม	Delete this save?	Padam simpanan ini?	confirm
+save.yes	ใช่	Yes	Ya	button
+save.no	ไม่	No	Tidak	button
+save.back	กลับ	Back	Kembali	button
+save.corrupt	ไฟล์เซฟเสียหาย	This save is damaged	Fail simpanan rosak	error
+save.used_backup	ไฟล์เซฟเสียหาย โหลดจากไฟล์สำรองแทน	Save was damaged; loaded the backup	Fail rosak; sandaran dimuatkan	warning
+save.migrated	อัปเดตเซฟจากเวอร์ชัน {from} แล้ว	Updated the save from version {from}	Simpanan dikemas kini dari versi {from}	info
+save.too_new	เซฟนี้มาจากเกมเวอร์ชันใหม่กว่า	This save is from a newer version of the game	Simpanan ini dari versi permainan yang lebih baharu	error
+lang.title	ภาษา	Language	Bahasa	settings
+lang.th	ไทย	ไทย	ไทย	language name in its own script
+lang.en	English	English	English	language name
+lang.ms	Bahasa Melayu	Bahasa Melayu	Bahasa Melayu	language name

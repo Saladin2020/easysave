@@ -1,0 +1,162 @@
+# key	en	ms   (English and Malay for the sample string tables; salam_neighbours is left untranslated on purpose)
+ui.village.title.logo	Legend of Lantern Village	Lagenda Kampung Tanglung
+ui.village.title.subtitle	LANTERN VILLAGE	KAMPUNG TANGLUNG
+ui.village.title.main_menu.0	New game	Permainan baharu
+ui.village.title.main_menu.1	Continue	Teruskan
+ui.village.title.main_menu.2	Settings	Tetapan
+ui.village.title.main_menu.3	Quit	Keluar
+ui.village.title.version	v0.1 · Press Enter to select	v0.1 · Tekan Enter untuk pilih
+ui.village.hud.hp.label	HP	HP
+ui.village.hud.mp.label	MP	MP
+ui.village.hud.xp.label	XP	XP
+ui.village.hud.coin_text	฿1,250	฿1,250
+ui.village.hud.quest	Find 3 ripe mangoes for Auntie Daeng at the market	Cari 3 biji mangga masak untuk Mak Cik Daeng di pasar
+ui.village.hud.quest.title	Quest: Mango sticky rice	Misi: Pulut mangga
+ui.village.hud.hint	Ripe mango ×5	Mangga masak ×5
+ui.village.pause.pause_menu.title	Paused	Dijeda
+ui.village.pause.pause_menu.0	Resume	Sambung
+ui.village.pause.pause_menu.1	Bag	Beg
+ui.village.pause.pause_menu.2	Settings	Tetapan
+ui.village.pause.pause_menu.3	Save game	Simpan permainan
+ui.village.pause.pause_menu.4	Main menu	Menu utama
+ui.village.pause.tip	Tip: the night market opens after sunset	Petua: pasar malam dibuka selepas matahari terbenam
+ui.village.settings.frame.title	Settings	Tetapan
+ui.village.settings.tabs.tabs.0	Sound	Bunyi
+ui.village.settings.tabs.tabs.1	Video	Paparan
+ui.village.settings.tabs.tabs.2	Controls	Kawalan
+ui.village.settings.music	Music	Muzik
+ui.village.settings.sfx	Sound effects	Kesan bunyi
+ui.village.settings.voice	Voice	Suara
+ui.village.settings.fullscreen	Fullscreen	Skrin penuh
+ui.village.settings.bigtext	Large text	Teks besar
+ui.village.settings.ok	OK	OK
+ui.village.settings.cancel	Cancel	Batal
+ui.village.inventory.frame.title	Bag	Beg
+ui.village.inventory.tabs.tabs.0	All	Semua
+ui.village.inventory.tabs.tabs.1	Food	Makanan
+ui.village.inventory.tabs.tabs.2	Key items	Barang penting
+ui.village.inventory.detail	Sweet, fragrant ripe mango. Restores 20 HP. Used for mango sticky rice.	Mangga masak yang manis dan wangi. Memulihkan 20 HP. Boleh dibuat pulut mangga.
+ui.village.inventory.detail.title	Nam dok mai mango	Mangga nam dok mai
+ui.village.inventory.use	Use	Guna
+ui.village.inventory.drop	Drop	Buang
+ui.village.inventory.give	Give to Auntie Daeng	Beri kepada Mak Cik Daeng
+ui.village.inventory.coin_text	1,250 baht	1,250 baht
+ui.village.inventory.weight	Slots 24/35	Slot 24/35
+ui.village.shop.frame.title	Auntie Daeng's stall · Night market	Gerai Mak Cik Daeng · Pasar malam
+ui.village.shop.price	Sweet and creamy. 25 baht.	Manis dan berlemak. 25 baht.
+ui.village.shop.price.title	Thai iced tea	Teh ais Thai
+ui.village.shop.buy	Buy ฿25	Beli ฿25
+ui.village.shop.qty	Quantity	Kuantiti
+ui.village.shop.wallet.label	Money	Wang
+ui.village.shop.leave	Leave shop	Keluar kedai
+ui.village.raya.frame.title	Getting ready for Raya	Persiapan Raya
+ui.village.raya.tabs.tabs.0	Raya items	Barang Raya
+ui.village.raya.tabs.tabs.1	Food	Makanan
+ui.village.raya.tabs.tabs.2	Gifts	Buah tangan
+ui.village.raya.detail	A woven coconut-leaf case: fill with rice and boil. Eaten with curry on Raya and shared with neighbours of every faith.	Sarung daun kelapa yang dianyam: isi dengan beras dan rebus. Dimakan dengan kari pada hari Raya dan dikongsi dengan jiran semua agama.
+ui.village.raya.detail.title	Ketupat	Ketupat
+ui.village.raya.share	Share with neighbours	Kongsi dengan jiran
+ui.village.raya.light	Light the pelita	Nyalakan pelita
+ui.village.raya.keep	Keep	Simpan
+ui.village.raya.kind.label	Kindness	Budi
+ui.village.raya.note	Selamat Hari Raya	Selamat Hari Raya
+dlg.village_delivery.title	Ton's village deliveries	Penghantaran Ton di kampung
+dlg.village_delivery.char.kid	Ton	Ton
+dlg.village_delivery.char.vendor	Auntie Daeng	Mak Cik Daeng
+dlg.village_delivery.char.monk	Venerable brother	Tok Sami
+dlg.village_delivery.char.farmer	Uncle Mee	Pak Cik Mee
+dlg.village_delivery.char.student	Fon	Kak Fon
+dlg.village_delivery.char.elder	Grandpa Phoem	Tok Phoem
+dlg.village_delivery.market_1	Saturday morning: the village market is busier than ever.	Pagi Sabtu, pasar kampung lebih sibuk daripada biasa.
+dlg.village_delivery.market_2	Ton, dear, perfect timing! Can you help me deliver to three customers?	Ton, kebetulan sungguh! Boleh tolong Mak Cik hantar barang kepada tiga pelanggan?
+dlg.village_delivery.market_3	Three whole customers, Auntie Daeng?	Tiga orang pelanggan, Mak Cik Daeng?
+dlg.village_delivery.market_4	Mango sticky rice for the monk, morning glory for Uncle Mee, and the balm the headman is sending to Grandpa Phoem.	Pulut mangga untuk sami, kangkung untuk Pak Cik Mee, dan balsem kiriman ketua kampung untuk Tok Phoem.
+dlg.village_delivery.market_c5	Sure! I'll take care of it.	Boleh! Saya uruskan.
+dlg.village_delivery.market_6	Thank you, dear. Here's ten baht of snack money.	Terima kasih, nak. Ini sepuluh baht duit belanja.
+dlg.village_delivery.market_c7	Can I grab a smoothie first?	Boleh saya beli jus dulu?
+dlg.village_delivery.market_8	Be quick, the sticky rice will go cold.	Cepat sikit, nanti pulut sejuk.
+dlg.village_delivery.market_c9	I'm busy today.	Hari ini saya sibuk.
+dlg.village_delivery.refuse_1	That's all right, dear. Come help me another day.	Tak apa, nak. Lain kali datang tolong Mak Cik, ya.
+dlg.village_delivery.temple_1	Ton runs past the noodle shop all the way to the temple.	Ton berlari melepasi kedai mi sampai ke hadapan wat.
+dlg.village_delivery.temple_2	Blessings, Ton. You're here early today.	Selamat pagi, Ton. Awal kamu datang hari ini.
+dlg.village_delivery.temple_3	Auntie Daeng sent this mango sticky rice as an offering.	Mak Cik Daeng kirim pulut mangga ini sebagai persembahan.
+dlg.village_delivery.temple_4	Thank you. Please pass my thanks to Auntie Daeng.	Terima kasih. Sampaikan terima kasih saya kepada Mak Cik Daeng.
+dlg.village_delivery.farm_1	My morning glory is here? I thought she'd forgotten.	Kangkung Pak Cik dah sampai? Ingatkan dia terlupa.
+dlg.village_delivery.farm_c2	Give the morning glory to Uncle Mee	Beri kangkung kepada Pak Cik Mee
+dlg.village_delivery.farm_3	Thanks, kiddo. Take a mango to Grandpa Phoem for me.	Terima kasih, cu. Bawakan sebiji mangga untuk Tok Phoem.
+dlg.village_delivery.farm_c4	Sneak a taste of the morning glory	Curi rasa kangkung dulu
+dlg.village_delivery.farm_5	Hey! That's my morning glory!	Hoi! Itu kangkung Pak Cik!
+dlg.village_delivery.farm_6	Sorry, Uncle... I was just a little hungry.	Maaf, Pak Cik... saya lapar sikit.
+dlg.village_delivery.farm_7	Ton! You're running so fast. Where are you off to?	Ton! Lajunya berlari. Nak ke mana?
+dlg.village_delivery.farm_8	To Grandpa Phoem's, Fon. {delivered} done, one more to go.	Ke rumah Tok Phoem, Kak Fon. Dah hantar {delivered}, tinggal satu lagi.
+dlg.village_delivery.elder_1	Who's there... oh, it's Ton.	Siapa tu... oh, Ton rupanya.
+dlg.village_delivery.elder_2	Uncle Mee sent you a mango, Grandpa.	Pak Cik Mee kirim mangga, Tok.
+dlg.village_delivery.elder_3	What a kind boy. Here's five more baht for snacks.	Baiknya budak ini. Tok beri lima baht lagi untuk belanja.
+dlg.village_delivery.elder_4	Thank you, dear. Go home safely and watch out for cars.	Terima kasih, cu. Balik elok-elok, hati-hati dengan kereta.
+dlg.village_delivery.ending_1	All {delivered} delivered. Well done, Ton! You earned {coins} baht today.	Semua {delivered} sudah dihantar. Syabas, Ton! Hari ini kamu dapat {coins} baht.
+dlg.village_delivery.ending_2	Yay! I'll come help again tomorrow!	Yay! Esok saya datang tolong lagi!
+dlg.village_delivery.ending_3	You haven't finished the deliveries yet, Ton.	Belum habis hantar lagi, Ton.
+quest.village_delivery.file_title	Ton's village deliveries	Penghantaran Ton di kampung
+quest.flag.coins	Snack money	Duit belanja
+quest.flag.reputation	Good deeds	Kebaikan
+quest.item.sticky_rice.name	Mango sticky rice	Pulut mangga
+quest.item.sticky_rice.desc	An offering for the monk	Persembahan untuk sami
+quest.item.morning_glory.name	Morning glory	Kangkung
+quest.item.morning_glory.desc	For Uncle Mee	Untuk Pak Cik Mee
+quest.item.balm.name	Herbal balm	Balsem
+quest.item.balm.desc	From the headman for Grandpa Phoem	Kiriman ketua kampung untuk Tok Phoem
+quest.item.mango.name	Mango	Mangga
+quest.item.mango.desc	Uncle Mee's gift for Grandpa Phoem	Kiriman Pak Cik Mee untuk Tok Phoem
+quest.item.kanom_chan.name	Layer cake	Kuih lapis
+quest.item.kanom_chan.desc	A reward from Auntie Daeng	Hadiah daripada Mak Cik Daeng
+quest.item.nam_pan.name	Fruit smoothie	Jus buah
+quest.item.nam_pan.desc	Ton's favourite cup	Minuman kegemaran Ton
+quest.village_delivery.title	Ton's village deliveries	Penghantaran Ton di kampung
+quest.village_delivery.summary	Auntie Daeng has orders for three customers. Delivered {delivered}/3.	Mak Cik Daeng ada pesanan untuk tiga pelanggan. Sudah dihantar {delivered}/3.
+quest.village_delivery.step.accept	Take the job from Auntie Daeng	Terima tugas daripada Mak Cik Daeng
+quest.village_delivery.step.accept.hint	Talk to Auntie Daeng at the market	Bercakap dengan Mak Cik Daeng di pasar
+quest.village_delivery.step.temple	Offer the mango sticky rice to the monk	Persembahkan pulut mangga kepada sami
+quest.village_delivery.step.temple.hint	The temple is to the north-west	Wat terletak di arah barat laut
+quest.village_delivery.step.farm	Bring the morning glory to Uncle Mee's field	Hantar kangkung ke sawah Pak Cik Mee
+quest.village_delivery.step.mango	Take Uncle Mee's mango to Grandpa Phoem	Bawa mangga Pak Cik Mee kepada Tok Phoem
+quest.village_delivery.step.elder	Bring the balm to Grandpa Phoem	Bawa balsem kepada Tok Phoem
+quest.village_delivery.step.report	Finish all three deliveries	Selesaikan ketiga-tiga penghantaran
+quest.snack_money.title	Ton's snack money	Duit belanja Ton
+quest.snack_money.summary	Saving up for a smoothie. {coins} baht so far.	Mengumpul duit untuk beli jus. Setakat ini {coins} baht.
+quest.snack_money.step.ten	Earn 10 baht of snack money	Dapat 10 baht duit belanja
+quest.snack_money.step.fifteen	Save up 15 baht	Kumpul sehingga 15 baht
+quest.help_tomorrow.title	Back again tomorrow	Datang lagi esok
+quest.help_tomorrow.summary	Ton promised to help Auntie Daeng at the market again tomorrow.	Ton berjanji akan menolong Mak Cik Daeng di pasar lagi esok.
+quest.help_tomorrow.step.market	Go to the market early	Pergi ke pasar awal pagi
+quest.help_tomorrow.step.stall	Help Auntie Daeng set up her stall	Tolong Mak Cik Daeng menyusun gerai
+quest.ramadan_raya.file_title	From Ramadan to Raya	Dari Ramadan ke Hari Raya
+quest.flag.kindness	Kindness	Budi
+quest.flag.ketupat	Ketupat	Ketupat
+quest.item.bubur.name	Bubur	Bubur
+quest.item.bubur.desc	Rice porridge for breaking the fast, made by Kak Na	Bubur untuk berbuka puasa, air tangan Kak Na
+quest.item.kurma.name	Dates	Kurma
+quest.item.kurma.desc	Break the fast with dates and water	Berbuka dengan kurma dan air
+quest.item.pomelo.name	Pomelo	Limau bali
+quest.item.pomelo.desc	Auntie Daeng's gift to share at the mosque	Kiriman Mak Cik Daeng untuk dikongsi di masjid
+quest.item.ketupat_shell.name	Ketupat	Ketupat
+quest.item.ketupat_shell.desc	A woven coconut-leaf case for cooking rice on Raya	Sarung daun kelapa yang dianyam untuk menanak nasi pada hari Raya
+quest.item.pelita.name	Pelita lamp	Pelita
+quest.item.pelita.desc	A bamboo oil lamp lit outside the house the night before Raya	Pelita buluh yang dinyalakan di depan rumah pada malam Raya
+quest.iftar_share.title	Sharing iftar	Berkongsi juadah berbuka
+quest.iftar_share.summary	Help Kak Na and Auntie Daeng bring iftar food to the mosque.	Tolong Kak Na dan Mak Cik Daeng menghantar juadah berbuka ke masjid.
+quest.iftar_share.step.mosque	Bring the bubur and pomelo to the mosque yard	Bawa bubur dan limau bali ke halaman masjid
+quest.iftar_share.step.mosque.hint	The wooden mosque is north-east, past the market	Masjid kayu di arah timur laut, selepas pasar
+quest.iftar_share.step.kurma	Hand the dates to Pak Ismail	Hulurkan kurma kepada Pak Ismail
+quest.iftar_share.step.iftar	Stay until it is time to break the fast	Tunggu sehingga waktu berbuka
+quest.iftar_share.step.iftar.hint	After sunset you will hear the azan from the mosque	Selepas matahari terbenam azan akan berkumandang dari masjid
+quest.raya_prep.title	Getting ready for Raya	Persiapan Raya
+quest.raya_prep.summary	{ketupat}/3 ketupat woven. Light the pelita tonight.	Sudah anyam {ketupat}/3 ketupat. Nyalakan pelita malam ini.
+quest.raya_prep.step.weave	Weave 3 ketupat with Pak Ji	Anyam 3 ketupat bersama Pak Ji
+quest.raya_prep.step.weave.hint	In the yard in front of the tadika	Di halaman depan tadika
+quest.raya_prep.step.pelita	Help Kak Fatimah light the pelita	Tolong Kak Fatimah menyalakan pelita
+quest.raya_prep.step.neat	Weave carefully (make 4)	Anyam dengan teliti (dapat 4)
+quest.raya_visit.title	Hari Raya	Hari Raya
+quest.raya_visit.summary	Give Raya greetings, ask forgiveness, then share ketupat with the neighbours.	Ucap selamat Hari Raya, bermaaf-maafan, kemudian kongsi ketupat dengan jiran.
+quest.raya_visit.step.greet	Wish Adam a happy Raya	Ucap selamat Hari Raya kepada Adam
+quest.raya_visit.step.maaf	Ask for forgiveness (maaf)	Bermaaf-maafan
+quest.raya_visit.step.share	Bring ketupat to Grandpa Phoem and Auntie Daeng	Bawa ketupat kepada Tok Phoem dan Mak Cik Daeng

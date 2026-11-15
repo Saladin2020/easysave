@@ -1,0 +1,437 @@
+{
+  "format": "easyitems/1",
+  "id": "raya",
+  "name": {
+    "th": "ของชุมชนมุสลิมและรายอ",
+    "en": "Muslim community and Hari Raya goods"
+  },
+  "items": [
+    {
+      "id": "ketupat",
+      "name": {
+        "th": "ตูปะ",
+        "en": "Ketupat",
+        "ms": "Ketupat"
+      },
+      "category": "food",
+      "price": 15,
+      "stack": 20,
+      "icon": "ketupat",
+      "desc": {
+        "th": "ข้าวหุงในปลอกใบมะพร้าวสาน ของวันรายอ",
+        "en": "Rice cooked in a woven palm-leaf pouch for Raya"
+      },
+      "effects": [
+        {
+          "kind": "heal",
+          "amount": 20
+        }
+      ],
+      "tags": [
+        "raya",
+        "halal"
+      ]
+    },
+    {
+      "id": "ketupat_shell",
+      "name": {
+        "th": "ปลอกตูปะ",
+        "en": "Ketupat shell",
+        "ms": "Sarung ketupat"
+      },
+      "category": "material",
+      "price": 4,
+      "stack": 30,
+      "icon": "ketupat_shell",
+      "tags": [
+        "raya"
+      ]
+    },
+    {
+      "id": "rendang",
+      "name": {
+        "th": "เรินดังเนื้อ",
+        "en": "Beef rendang",
+        "ms": "Rendang daging"
+      },
+      "category": "food",
+      "price": 60,
+      "stack": 5,
+      "icon": "rendang",
+      "effects": [
+        {
+          "kind": "heal",
+          "amount": 40
+        },
+        {
+          "kind": "mood",
+          "amount": 5
+        }
+      ],
+      "tags": [
+        "raya",
+        "halal"
+      ]
+    },
+    {
+      "id": "kurma",
+      "name": {
+        "th": "อินทผลัม",
+        "en": "Dates",
+        "ms": "Kurma"
+      },
+      "category": "food",
+      "price": 25,
+      "stack": 30,
+      "icon": "kurma",
+      "desc": {
+        "th": "ละศีลอดด้วยอินทผลัมกับน้ำ",
+        "en": "Break the fast with dates and water"
+      },
+      "effects": [
+        {
+          "kind": "energy",
+          "amount": 15
+        }
+      ],
+      "tags": [
+        "ramadan",
+        "halal"
+      ]
+    },
+    {
+      "id": "roti",
+      "name": {
+        "th": "โรตี",
+        "en": "Roti",
+        "ms": "Roti canai"
+      },
+      "category": "food",
+      "price": 20,
+      "stack": 10,
+      "icon": "roti",
+      "effects": [
+        {
+          "kind": "heal",
+          "amount": 15
+        }
+      ],
+      "tags": [
+        "halal"
+      ]
+    },
+    {
+      "id": "bubur",
+      "name": {
+        "th": "บูโบ",
+        "en": "Rice porridge",
+        "ms": "Bubur"
+      },
+      "category": "food",
+      "price": 20,
+      "stack": 10,
+      "icon": "bubur",
+      "effects": [
+        {
+          "kind": "heal",
+          "amount": 18
+        }
+      ],
+      "tags": [
+        "ramadan",
+        "halal"
+      ]
+    },
+    {
+      "id": "teh_tarik",
+      "name": {
+        "th": "ชาชัก",
+        "en": "Teh tarik",
+        "ms": "Teh tarik"
+      },
+      "category": "drink",
+      "price": 20,
+      "stack": 10,
+      "icon": "teh_tarik",
+      "effects": [
+        {
+          "kind": "energy",
+          "amount": 20
+        }
+      ],
+      "tags": [
+        "halal"
+      ]
+    },
+    {
+      "id": "songkok",
+      "name": {
+        "th": "หมวกซงกก",
+        "en": "Songkok",
+        "ms": "Songkok"
+      },
+      "category": "clothing",
+      "price": 180,
+      "stack": 1,
+      "icon": "songkok",
+      "equip": {
+        "slot": "head"
+      },
+      "rarity": "uncommon",
+      "tags": [
+        "raya"
+      ]
+    },
+    {
+      "id": "sarong",
+      "name": {
+        "th": "ผ้าโสร่ง",
+        "en": "Kain pelekat sarong",
+        "ms": "Kain pelikat"
+      },
+      "category": "textile",
+      "price": 150,
+      "stack": 1,
+      "icon": "sarong",
+      "equip": {
+        "slot": "body"
+      },
+      "tags": [
+        "raya"
+      ]
+    },
+    {
+      "id": "prayer_mat",
+      "name": {
+        "th": "ผ้าปูละหมาด",
+        "en": "Prayer mat",
+        "ms": "Sejadah"
+      },
+      "category": "textile",
+      "price": 220,
+      "stack": 1,
+      "icon": "prayer_mat",
+      "desc": {
+        "th": "ผ้าทอเรียบๆ สีเขียว",
+        "en": "A plain green woven mat"
+      },
+      "sellable": false
+    },
+    {
+      "id": "pelita",
+      "name": {
+        "th": "ตะเกียงปะลิตา",
+        "en": "Pelita lamp",
+        "ms": "Pelita"
+      },
+      "category": "festival",
+      "price": 30,
+      "stack": 10,
+      "icon": "pelita",
+      "desc": {
+        "th": "ตะเกียงไม้ไผ่ จุดหน้าบ้านคืนก่อนรายอ",
+        "en": "Bamboo oil lamp lit before Raya"
+      },
+      "tags": [
+        "raya"
+      ]
+    },
+    {
+      "id": "coin_pouch_gift",
+      "name": {
+        "th": "ซองรายอ",
+        "en": "Raya money packet",
+        "ms": "Duit raya"
+      },
+      "category": "gift",
+      "price": 0,
+      "stack": 10,
+      "icon": "coin",
+      "desc": {
+        "th": "ผู้ใหญ่ให้เด็กๆ วันรายอ",
+        "en": "Elders give these to children at Raya"
+      },
+      "tags": [
+        "raya"
+      ],
+      "sellable": false
+    }
+  ],
+  "shops": [
+    {
+      "id": "raya_bazaar",
+      "name": {
+        "th": "ตลาดรายอ",
+        "en": "Raya bazaar",
+        "ms": "Bazar Raya"
+      },
+      "keeper": "kakna",
+      "buyMod": 1.0,
+      "sellMod": 0.5,
+      "halal": true,
+      "buys": [
+        "food",
+        "ingredient",
+        "drink",
+        "textile"
+      ],
+      "tags": [
+        "raya",
+        "halal"
+      ],
+      "tagMods": {
+        "raya": 0.9
+      },
+      "stock": [
+        {
+          "item": "ketupat",
+          "qty": 20,
+          "restock": 1
+        },
+        {
+          "item": "ketupat_shell",
+          "qty": -1
+        },
+        {
+          "item": "rendang",
+          "qty": 6,
+          "restock": 1
+        },
+        {
+          "item": "kurma",
+          "qty": -1
+        },
+        {
+          "item": "roti",
+          "qty": 10,
+          "restock": 1
+        },
+        {
+          "item": "bubur",
+          "qty": 8,
+          "restock": 1
+        },
+        {
+          "item": "teh_tarik",
+          "qty": -1
+        },
+        {
+          "item": "songkok",
+          "qty": 2
+        },
+        {
+          "item": "sarong",
+          "qty": 3
+        },
+        {
+          "item": "prayer_mat",
+          "qty": 2
+        },
+        {
+          "item": "pelita",
+          "qty": 12,
+          "restock": 1
+        },
+        {
+          "item": "coconut",
+          "qty": 6,
+          "restock": 1
+        },
+        {
+          "item": "mango",
+          "qty": 6,
+          "restock": 1
+        }
+      ]
+    }
+  ],
+  "loot": [
+    {
+      "id": "raya_visit",
+      "name": {
+        "th": "ของฝากจากการเยี่ยมบ้านวันรายอ",
+        "en": "Raya open-house gifts"
+      },
+      "rolls": [
+        1,
+        2
+      ],
+      "entries": [
+        {
+          "item": "ketupat",
+          "weight": 4,
+          "min": 1,
+          "max": 3
+        },
+        {
+          "item": "rendang",
+          "weight": 2
+        },
+        {
+          "item": "kurma",
+          "weight": 3,
+          "min": 2,
+          "max": 5
+        },
+        {
+          "item": "teh_tarik",
+          "weight": 2
+        }
+      ],
+      "guaranteed": [
+        {
+          "item": "coin_pouch_gift",
+          "n": 1
+        }
+      ]
+    }
+  ],
+  "recipes": [
+    {
+      "id": "ketupat",
+      "name": {
+        "th": "หุงตูปะ",
+        "en": "Cook ketupat"
+      },
+      "station": "kitchen",
+      "time": 20,
+      "inputs": [
+        {
+          "item": "ketupat_shell",
+          "n": 2
+        },
+        {
+          "item": "rice_bag",
+          "n": 1
+        }
+      ],
+      "outputs": [
+        {
+          "item": "ketupat",
+          "n": 6
+        }
+      ]
+    },
+    {
+      "id": "pelita_set",
+      "name": {
+        "th": "ทำตะเกียงปะลิตา",
+        "en": "Make pelita lamps"
+      },
+      "station": "craft_mat",
+      "time": 10,
+      "inputs": [
+        {
+          "item": "candle",
+          "n": 2
+        }
+      ],
+      "outputs": [
+        {
+          "item": "pelita",
+          "n": 1
+        }
+      ]
+    }
+  ]
+}

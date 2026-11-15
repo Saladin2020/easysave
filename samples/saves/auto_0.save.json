@@ -1,0 +1,128 @@
+{
+  "format": "easysave-slot/1",
+  "game": "village_delivery",
+  "version": 3,
+  "slot": "auto_0",
+  "meta": {
+    "playtime": 3600,
+    "savedAt": "2026-11-15T19:38:00+07:00",
+    "label": "autosave"
+  },
+  "data": {
+    "player": {
+      "name": "ต้น",
+      "money": 25,
+      "scene": "market",
+      "pos": {
+        "x": 344,
+        "y": 180.25
+      },
+      "facing": "left",
+      "bike": "rusty"
+    },
+    "day": 2,
+    "time_of_day": "noon",
+    "quests": {
+      "active": [
+        "help_tomorrow"
+      ],
+      "done": [
+        "village_delivery",
+        "snack_money"
+      ],
+      "steps": {
+        "village_delivery": [
+          "accept",
+          "temple",
+          "farm",
+          "mango",
+          "elder",
+          "report"
+        ],
+        "help_tomorrow": []
+      },
+      "vars": {
+        "delivered": 3,
+        "coins": 25,
+        "mango": true,
+        "reputation": 1
+      }
+    },
+    "items": {
+      "coins": 25,
+      "day": 2,
+      "slots": [
+        {
+          "item": "letter",
+          "n": 1
+        },
+        {
+          "item": "kanom_chan",
+          "n": 1
+        },
+        {
+          "item": "mango",
+          "n": 2
+        },
+        null,
+        null,
+        null
+      ],
+      "equipped": {
+        "head": "straw_hat",
+        "body": null,
+        "hand": null,
+        "accessory": "basket",
+        "vehicle": null
+      },
+      "stock": {
+        "market": {
+          "mango_sticky_rice": 5,
+          "mango": 10
+        }
+      },
+      "restocked": {
+        "market": {
+          "mango_sticky_rice": 0,
+          "mango": 1
+        }
+      }
+    },
+    "flags": {
+      "met_vendor": true,
+      "met_monk": true,
+      "met_farmer": true,
+      "met_elder": true
+    },
+    "deliveries": [
+      {
+        "to": "monk",
+        "item": "sticky_rice",
+        "done": true
+      },
+      {
+        "to": "farmer",
+        "item": "morning_glory",
+        "done": true
+      },
+      {
+        "to": "elder",
+        "item": "balm",
+        "done": true
+      }
+    ],
+    "settings": {
+      "locale": "th",
+      "text_speed": 2,
+      "music": 0.7,
+      "sfx": 0.8,
+      "big_text": false
+    },
+    "stats": {
+      "playtime": 3600,
+      "max_money": 25,
+      "saves": 4
+    }
+  },
+  "checksum": "da8798a4"
+}

@@ -1,0 +1,634 @@
+{
+  "format": "easyi18n/1",
+  "id": "dialogue",
+  "source": "th",
+  "locales": [
+    "th",
+    "en",
+    "ms"
+  ],
+  "strings": {
+    "dlg.salam_neighbours.busy_1": {
+      "th": "ขอโทษนะอาดัม วันนี้แม่ให้อยู่บ้าน",
+      "note": "line (ton)",
+      "src": "sources/dialogues/salam_neighbours.ezd:48"
+    },
+    "dlg.salam_neighbours.busy_2": {
+      "th": "ไม่เป็นไร ไว้คราวหน้านะ",
+      "note": "line (adam)",
+      "src": "sources/dialogues/salam_neighbours.ezd:49"
+    },
+    "dlg.salam_neighbours.busy_3": {
+      "th": "ไปเถอะหลาน ช่วยแม่ก็เป็นเรื่องดีเหมือนกัน",
+      "note": "line (pakcik)",
+      "src": "sources/dialogues/salam_neighbours.ezd:50"
+    },
+    "dlg.salam_neighbours.char.adam": {
+      "th": "อาดัม",
+      "note": "character name (adam)",
+      "src": "sources/dialogues/salam_neighbours.ezd:15"
+    },
+    "dlg.salam_neighbours.char.aisyah": {
+      "th": "ไอชะฮ์",
+      "note": "character name (aisyah)",
+      "src": "sources/dialogues/salam_neighbours.ezd:19"
+    },
+    "dlg.salam_neighbours.char.fatimah": {
+      "th": "ก๊ะฟาตีมะห์",
+      "note": "character name (fatimah)",
+      "src": "sources/dialogues/salam_neighbours.ezd:16"
+    },
+    "dlg.salam_neighbours.char.kakna": {
+      "th": "ก๊ะนะ",
+      "note": "character name (kakna)",
+      "src": "sources/dialogues/salam_neighbours.ezd:18"
+    },
+    "dlg.salam_neighbours.char.monk": {
+      "th": "หลวงพี่",
+      "note": "character name (monk)",
+      "src": "sources/dialogues/salam_neighbours.ezd:21"
+    },
+    "dlg.salam_neighbours.char.pakcik": {
+      "th": "ปะจิอิสมะแอ",
+      "note": "character name (pakcik)",
+      "src": "sources/dialogues/salam_neighbours.ezd:17"
+    },
+    "dlg.salam_neighbours.char.ton": {
+      "th": "ต้น",
+      "note": "character name (ton)",
+      "src": "sources/dialogues/salam_neighbours.ezd:14"
+    },
+    "dlg.salam_neighbours.char.vendor": {
+      "th": "ป้าแดง",
+      "note": "character name (vendor)",
+      "src": "sources/dialogues/salam_neighbours.ezd:20"
+    },
+    "dlg.salam_neighbours.market_1": {
+      "th": "คืนก่อนพายุเข้า เช้านี้ถนนหน้าตลาดยังเปียก ใบมะพร้าวหล่นเต็มทาง",
+      "note": "narration",
+      "src": "sources/dialogues/salam_neighbours.ezd:25"
+    },
+    "dlg.salam_neighbours.market_11": {
+      "th": "สวัสดีจ้ะต้น ไหว้สวยเชียว",
+      "note": "line (pakcik)",
+      "src": "sources/dialogues/salam_neighbours.ezd:36"
+    },
+    "dlg.salam_neighbours.market_12": {
+      "th": "ที่บ้านเราทักกันว่า อัสสะลามุอะลัยกุม แล้วคนตอบก็ว่า วะอะลัยกุมุสสะลาม",
+      "note": "line (adam)",
+      "src": "sources/dialogues/salam_neighbours.ezd:37"
+    },
+    "dlg.salam_neighbours.market_13": {
+      "th": "อัส-สะ-ลา-มุ... ไว้ผมฝึกนะครับ",
+      "note": "line (ton)",
+      "src": "sources/dialogues/salam_neighbours.ezd:38"
+    },
+    "dlg.salam_neighbours.market_14": {
+      "th": "วันนี้ปะจิกับก๊ะฟาตีมะห์จะซ่อมหลังคาตาดีกา เด็กๆ จะได้เรียนวันเสาร์-อาทิตย์ได้เหมือนเดิม",
+      "note": "line (pakcik)",
+      "src": "sources/dialogues/salam_neighbours.ezd:39"
+    },
+    "dlg.salam_neighbours.market_15": {
+      "th": "แต่วันนี้ที่วัดก็ต้องเก็บกวาดศาลานะ เย็นนี้มีงานทำบุญหมู่บ้าน",
+      "note": "line (vendor)",
+      "src": "sources/dialogues/salam_neighbours.ezd:40"
+    },
+    "dlg.salam_neighbours.market_16": {
+      "th": "สองที่เลย... ทำไงดีอาดัม",
+      "note": "line (ton)",
+      "src": "sources/dialogues/salam_neighbours.ezd:41"
+    },
+    "dlg.salam_neighbours.market_17": {
+      "th": "งั้นเราช่วยกันทั้งสองที่สิ เช้าไปตาดีกา บ่ายไปวัด",
+      "note": "line (adam)",
+      "src": "sources/dialogues/salam_neighbours.ezd:42"
+    },
+    "dlg.salam_neighbours.market_2": {
+      "th": "ต้น! มาเร็ว ก๊ะนะเพิ่งทอดโรตีเสร็จ",
+      "note": "line (adam)",
+      "src": "sources/dialogues/salam_neighbours.ezd:26"
+    },
+    "dlg.salam_neighbours.market_3": {
+      "th": "อาดัม! เมื่อคืนลมแรงมากเลยนะ บ้านนายเป็นอะไรไหม",
+      "note": "line (ton)",
+      "src": "sources/dialogues/salam_neighbours.ezd:27"
+    },
+    "dlg.salam_neighbours.market_4": {
+      "th": "บ้านไม่เป็นไร แต่หลังคาตาดีกาข้างมัสยิดปลิวไปหลายแผ่น",
+      "note": "line (adam)",
+      "src": "sources/dialogues/salam_neighbours.ezd:28"
+    },
+    "dlg.salam_neighbours.market_5": {
+      "th": "ปะจิอิสมะแอเดินมาจากทางมัสยิด ในมือถือค้อนกับถุงตะปู",
+      "note": "narration",
+      "src": "sources/dialogues/salam_neighbours.ezd:29"
+    },
+    "dlg.salam_neighbours.market_7": {
+      "th": "วะอะลัยกุมุสสะลาม ต้น ทักได้ชัดเจียวนะ ใครสอนล่ะ",
+      "note": "line (pakcik)",
+      "src": "sources/dialogues/salam_neighbours.ezd:32"
+    },
+    "dlg.salam_neighbours.market_8": {
+      "th": "อาดัมสอนครับ เขาบอกว่าแปลว่า ขอความสันติสุขจงมีแด่ท่าน",
+      "note": "line (ton)",
+      "src": "sources/dialogues/salam_neighbours.ezd:33"
+    },
+    "dlg.salam_neighbours.market_9": {
+      "th": "ใช่แล้ว เป็นคำอวยพรที่ดี ขอบใจนะหลาน",
+      "note": "line (pakcik)",
+      "src": "sources/dialogues/salam_neighbours.ezd:34"
+    },
+    "dlg.salam_neighbours.market_c10": {
+      "th": "(ไหว้) สวัสดีครับ ปะจิ",
+      "note": "choice",
+      "src": "sources/dialogues/salam_neighbours.ezd:35"
+    },
+    "dlg.salam_neighbours.market_c18": {
+      "th": "เอาเลย! ไปตาดีกาก่อน",
+      "note": "choice",
+      "src": "sources/dialogues/salam_neighbours.ezd:43"
+    },
+    "dlg.salam_neighbours.market_c19": {
+      "th": "ไปวัดก่อนดีกว่า หลวงพี่รออยู่",
+      "note": "choice",
+      "src": "sources/dialogues/salam_neighbours.ezd:44"
+    },
+    "dlg.salam_neighbours.market_c20": {
+      "th": "ผมต้องกลับบ้านไปช่วยแม่",
+      "note": "choice",
+      "src": "sources/dialogues/salam_neighbours.ezd:45"
+    },
+    "dlg.salam_neighbours.market_c6": {
+      "th": "อัสสะลามุอะลัยกุมครับ ปะจิ",
+      "note": "choice",
+      "src": "sources/dialogues/salam_neighbours.ezd:30"
+    },
+    "dlg.salam_neighbours.raya_roti_1": {
+      "th": "แดดบ่ายเริ่มอ่อน ทั้งสองเดินกลับมาที่ร้านน้ำชาของก๊ะนะ",
+      "note": "narration",
+      "src": "sources/dialogues/salam_neighbours.ezd:104"
+    },
+    "dlg.salam_neighbours.raya_roti_10": {
+      "th": "วันนั้นทั้งหลังคาตาดีกาและศาลาวัดเสร็จทันเวลา เพราะเพื่อนบ้านทุกศาสนาช่วยกัน",
+      "note": "narration",
+      "src": "sources/dialogues/salam_neighbours.ezd:115"
+    },
+    "dlg.salam_neighbours.raya_roti_2": {
+      "th": "มาๆ เด็กขยัน ก๊ะทอดโรตีไว้ให้คนละแผ่น ชาชักอีกคนละแก้ว",
+      "note": "line (kakna)",
+      "src": "sources/dialogues/salam_neighbours.ezd:105"
+    },
+    "dlg.salam_neighbours.raya_roti_3": {
+      "th": "ขอบคุณครับก๊ะนะ",
+      "note": "line (ton)",
+      "src": "sources/dialogues/salam_neighbours.ezd:107"
+    },
+    "dlg.salam_neighbours.raya_roti_4": {
+      "th": "ตรีมอกาเซะ ก๊ะ ภาษามลายูแปลว่า ขอบคุณ",
+      "note": "line (adam)",
+      "src": "sources/dialogues/salam_neighbours.ezd:108"
+    },
+    "dlg.salam_neighbours.raya_roti_5": {
+      "th": "ตรีมอกาเซะ! วันนี้ผมได้คำใหม่ตั้งสามคำ",
+      "note": "line (ton)",
+      "src": "sources/dialogues/salam_neighbours.ezd:109"
+    },
+    "dlg.salam_neighbours.raya_roti_6": {
+      "th": "ป้าแดงก็ซื้อขนมจากแผงฮาลาลไปฝากที่ตาดีกาแล้วนะ ทุกคนจะได้กินด้วยกัน",
+      "note": "line (vendor)",
+      "src": "sources/dialogues/salam_neighbours.ezd:110"
+    },
+    "dlg.salam_neighbours.raya_roti_7": {
+      "th": "ใกล้รายอแล้ว ปีนี้มาบ้านปะจินะต้น มาห่อตูปะด้วยกัน",
+      "note": "line (pakcik)",
+      "src": "sources/dialogues/salam_neighbours.ezd:111"
+    },
+    "dlg.salam_neighbours.raya_roti_8": {
+      "th": "อินชาอัลลอฮ์ครับ!",
+      "note": "line (ton)",
+      "src": "sources/dialogues/salam_neighbours.ezd:112"
+    },
+    "dlg.salam_neighbours.raya_roti_9": {
+      "th": "ฮ่าๆ ต้นพูดเป็นแล้ว",
+      "note": "line (adam)",
+      "src": "sources/dialogues/salam_neighbours.ezd:113"
+    },
+    "dlg.salam_neighbours.tadika_1": {
+      "th": "ที่ลานหน้าตาดีกา แผ่นสังกะสีกับไม้ระแนงกองอยู่ เด็กๆ ช่วยกันเก็บกิ่งไม้",
+      "note": "narration",
+      "src": "sources/dialogues/salam_neighbours.ezd:55"
+    },
+    "dlg.salam_neighbours.tadika_10": {
+      "th": "ขอบคุณค่ะพี่ต้น",
+      "note": "line (aisyah)",
+      "src": "sources/dialogues/salam_neighbours.ezd:66"
+    },
+    "dlg.salam_neighbours.tadika_12": {
+      "th": "ระวังมือนะหลาน ขอบสังกะสีคม",
+      "note": "line (pakcik)",
+      "src": "sources/dialogues/salam_neighbours.ezd:68"
+    },
+    "dlg.salam_neighbours.tadika_13": {
+      "th": "ได้ครับ ผมจับขอบไม้ไว้",
+      "note": "line (ton)",
+      "src": "sources/dialogues/salam_neighbours.ezd:69"
+    },
+    "dlg.salam_neighbours.tadika_14": {
+      "th": "หลังคาเสร็จไปครึ่งหนึ่งแล้ว พรุ่งนี้ถ้าฟ้าเป็นใจ อินชาอัลลอฮ์ จะเสร็จทั้งหมด",
+      "note": "line (pakcik)",
+      "src": "sources/dialogues/salam_neighbours.ezd:71"
+    },
+    "dlg.salam_neighbours.tadika_15": {
+      "th": "อินชาอัลลอฮ์ แปลว่าอะไรครับ",
+      "note": "line (ton)",
+      "src": "sources/dialogues/salam_neighbours.ezd:72"
+    },
+    "dlg.salam_neighbours.tadika_16": {
+      "th": "แปลว่า ถ้าอัลลอฮ์ทรงประสงค์ เราพูดเวลาตั้งใจจะทำอะไรในวันข้างหน้า",
+      "note": "line (adam)",
+      "src": "sources/dialogues/salam_neighbours.ezd:73"
+    },
+    "dlg.salam_neighbours.tadika_17": {
+      "th": "ใกล้เที่ยงแล้ว เดี๋ยวเสียงอะซานจากมัสยิดดัง ผู้ใหญ่จะไปละหมาดกันก่อนนะ",
+      "note": "line (fatimah)",
+      "src": "sources/dialogues/salam_neighbours.ezd:74"
+    },
+    "dlg.salam_neighbours.tadika_18": {
+      "th": "ต้นกับอาดัมไปช่วยที่วัดต่อได้เลย ขอบคุณมากนะ",
+      "note": "line (fatimah)",
+      "src": "sources/dialogues/salam_neighbours.ezd:75"
+    },
+    "dlg.salam_neighbours.tadika_2": {
+      "th": "อัสสะลามุอะลัยกุม เด็กๆ มาช่วยกันเยอะเลย",
+      "note": "line (fatimah)",
+      "src": "sources/dialogues/salam_neighbours.ezd:56"
+    },
+    "dlg.salam_neighbours.tadika_3": {
+      "th": "วะอะลัยกุมุสสะลามครับ ก๊ะฟาตีมะห์",
+      "note": "line (ton)",
+      "src": "sources/dialogues/salam_neighbours.ezd:58"
+    },
+    "dlg.salam_neighbours.tadika_4": {
+      "th": "โอ้โห ต้นตอบสลามได้ด้วย เก่งมาก",
+      "note": "line (fatimah)",
+      "src": "sources/dialogues/salam_neighbours.ezd:59"
+    },
+    "dlg.salam_neighbours.tadika_5": {
+      "th": "สวัสดีครับ ก๊ะฟาตีมะห์ ผมมาช่วยครับ",
+      "note": "line (ton)",
+      "src": "sources/dialogues/salam_neighbours.ezd:61"
+    },
+    "dlg.salam_neighbours.tadika_6": {
+      "th": "ขอบใจมากนะต้น",
+      "note": "line (fatimah)",
+      "src": "sources/dialogues/salam_neighbours.ezd:62"
+    },
+    "dlg.salam_neighbours.tadika_7": {
+      "th": "ก๊ะ... หนังสือของหนูเปียกหมดเลย",
+      "note": "line (aisyah)",
+      "src": "sources/dialogues/salam_neighbours.ezd:63"
+    },
+    "dlg.salam_neighbours.tadika_8": {
+      "th": "เดี๋ยวพี่ช่วยตากให้นะ วางเรียงบนม้านั่งตรงนี้แดดดี",
+      "note": "line (ton)",
+      "src": "sources/dialogues/salam_neighbours.ezd:64"
+    },
+    "dlg.salam_neighbours.tadika_c11": {
+      "th": "ช่วยปะจิส่งแผ่นสังกะสีขึ้นหลังคา",
+      "note": "choice",
+      "src": "sources/dialogues/salam_neighbours.ezd:67"
+    },
+    "dlg.salam_neighbours.tadika_c9": {
+      "th": "ช่วยตากหนังสือกับไอชะฮ์",
+      "note": "choice",
+      "src": "sources/dialogues/salam_neighbours.ezd:65"
+    },
+    "dlg.salam_neighbours.temple_1": {
+      "th": "ลานวัดเต็มไปด้วยใบไม้ ศาลาต้องจัดเก้าอี้สำหรับงานเย็นนี้",
+      "note": "narration",
+      "src": "sources/dialogues/salam_neighbours.ezd:83"
+    },
+    "dlg.salam_neighbours.temple_11": {
+      "th": "หนึ่ง สอง สาม... ยก!",
+      "note": "line (adam)",
+      "src": "sources/dialogues/salam_neighbours.ezd:93"
+    },
+    "dlg.salam_neighbours.temple_12": {
+      "th": "เรียบร้อยดีแล้ว ฝากขอบใจที่บ้านอาดัมด้วยนะ ที่ส่งหลานมาช่วย",
+      "note": "line (monk)",
+      "src": "sources/dialogues/salam_neighbours.ezd:95"
+    },
+    "dlg.salam_neighbours.temple_13": {
+      "th": "ครับหลวงพี่ เมื่อวานพ่อผมก็บอกว่า เพื่อนบ้านต้องช่วยกัน",
+      "note": "line (adam)",
+      "src": "sources/dialogues/salam_neighbours.ezd:96"
+    },
+    "dlg.salam_neighbours.temple_14": {
+      "th": "อาดัม ไปช่วยที่ตาดีกาต่อเถอะ",
+      "note": "line (ton)",
+      "src": "sources/dialogues/salam_neighbours.ezd:99"
+    },
+    "dlg.salam_neighbours.temple_2": {
+      "th": "เจริญพร ต้น พาเพื่อนมาด้วยหรือ",
+      "note": "line (monk)",
+      "src": "sources/dialogues/salam_neighbours.ezd:84"
+    },
+    "dlg.salam_neighbours.temple_3": {
+      "th": "นี่อาดัมครับหลวงพี่ เพื่อนที่โรงเรียน บ้านอยู่ข้างมัสยิด",
+      "note": "line (ton)",
+      "src": "sources/dialogues/salam_neighbours.ezd:85"
+    },
+    "dlg.salam_neighbours.temple_4": {
+      "th": "สวัสดีครับหลวงพี่ ผมมาช่วยยกเก้าอี้ครับ",
+      "note": "line (adam)",
+      "src": "sources/dialogues/salam_neighbours.ezd:86"
+    },
+    "dlg.salam_neighbours.temple_5": {
+      "th": "ขอบใจนะหนู ช่วยกันคนละไม้คนละมือ งานก็เสร็จไว",
+      "note": "line (monk)",
+      "src": "sources/dialogues/salam_neighbours.ezd:87"
+    },
+    "dlg.salam_neighbours.temple_6": {
+      "th": "ต้น ในศาลาต้องถอดรองเท้าใช่ไหม",
+      "note": "line (adam)",
+      "src": "sources/dialogues/salam_neighbours.ezd:88"
+    },
+    "dlg.salam_neighbours.temple_7": {
+      "th": "ใช่ เหมือนเข้ามัสยิดเลย",
+      "note": "line (ton)",
+      "src": "sources/dialogues/salam_neighbours.ezd:89"
+    },
+    "dlg.salam_neighbours.temple_9": {
+      "th": "กวาดเป็นวงๆ จากในออกนอกนะ",
+      "note": "line (monk)",
+      "src": "sources/dialogues/salam_neighbours.ezd:91"
+    },
+    "dlg.salam_neighbours.temple_c10": {
+      "th": "ช่วยยกเก้าอี้เข้าศาลากับอาดัม",
+      "note": "choice",
+      "src": "sources/dialogues/salam_neighbours.ezd:92"
+    },
+    "dlg.salam_neighbours.temple_c8": {
+      "th": "ช่วยกวาดลานวัด",
+      "note": "choice",
+      "src": "sources/dialogues/salam_neighbours.ezd:90"
+    },
+    "dlg.salam_neighbours.title": {
+      "th": "สลามเพื่อนบ้าน",
+      "note": "dialogue title",
+      "src": "sources/dialogues/salam_neighbours.ezd:4"
+    },
+    "dlg.village_delivery.char.elder": {
+      "th": "ตาเพิ่ม",
+      "en": "Grandpa Phoem",
+      "ms": "Tok Phoem",
+      "note": "character name (elder)",
+      "src": "sources/dialogues/village_delivery.ezd:16"
+    },
+    "dlg.village_delivery.char.farmer": {
+      "th": "ลุงมี",
+      "en": "Uncle Mee",
+      "ms": "Pak Cik Mee",
+      "note": "character name (farmer)",
+      "src": "sources/dialogues/village_delivery.ezd:14"
+    },
+    "dlg.village_delivery.char.kid": {
+      "th": "ต้น",
+      "en": "Ton",
+      "ms": "Ton",
+      "note": "character name (kid)",
+      "src": "sources/dialogues/village_delivery.ezd:11"
+    },
+    "dlg.village_delivery.char.monk": {
+      "th": "หลวงพี่",
+      "en": "Venerable brother",
+      "ms": "Tok Sami",
+      "note": "character name (monk)",
+      "src": "sources/dialogues/village_delivery.ezd:13"
+    },
+    "dlg.village_delivery.char.student": {
+      "th": "พี่ฝน",
+      "en": "Fon",
+      "ms": "Kak Fon",
+      "note": "character name (student)",
+      "src": "sources/dialogues/village_delivery.ezd:15"
+    },
+    "dlg.village_delivery.char.vendor": {
+      "th": "ป้าแดง",
+      "en": "Auntie Daeng",
+      "ms": "Mak Cik Daeng",
+      "note": "character name (vendor)",
+      "src": "sources/dialogues/village_delivery.ezd:12"
+    },
+    "dlg.village_delivery.elder_1": {
+      "th": "ใครมาน่ะ... อ้อ ต้นนี่เอง",
+      "en": "Who's there... oh, it's Ton.",
+      "ms": "Siapa tu... oh, Ton rupanya.",
+      "note": "line (elder)",
+      "src": "sources/dialogues/village_delivery.ezd:63"
+    },
+    "dlg.village_delivery.elder_2": {
+      "th": "ลุงมีฝากมะม่วงมาด้วยครับตา",
+      "en": "Uncle Mee sent you a mango, Grandpa.",
+      "ms": "Pak Cik Mee kirim mangga, Tok.",
+      "note": "line (kid)",
+      "src": "sources/dialogues/village_delivery.ezd:66"
+    },
+    "dlg.village_delivery.elder_3": {
+      "th": "ใจดีจริงหลานคนนี้ ตาให้ค่าขนมเพิ่มอีกห้าบาท",
+      "en": "What a kind boy. Here's five more baht for snacks.",
+      "ms": "Baiknya budak ini. Tok beri lima baht lagi untuk belanja.",
+      "note": "line (elder)",
+      "src": "sources/dialogues/village_delivery.ezd:67"
+    },
+    "dlg.village_delivery.elder_4": {
+      "th": "ขอบใจนะหลาน กลับบ้านดีๆ ระวังรถด้วยล่ะ",
+      "en": "Thank you, dear. Go home safely and watch out for cars.",
+      "ms": "Terima kasih, cu. Balik elok-elok, hati-hati dengan kereta.",
+      "note": "line (elder)",
+      "src": "sources/dialogues/village_delivery.ezd:70"
+    },
+    "dlg.village_delivery.ending_1": {
+      "th": "ส่งครบ {delivered} ที่แล้ว เก่งมากต้น! วันนี้ได้ค่าขนมทั้งหมด {coins} บาท",
+      "en": "All {delivered} delivered. Well done, Ton! You earned {coins} baht today.",
+      "ms": "Semua {delivered} sudah dihantar. Syabas, Ton! Hari ini kamu dapat {coins} baht.",
+      "note": "line (vendor)",
+      "src": "sources/dialogues/village_delivery.ezd:75"
+    },
+    "dlg.village_delivery.ending_2": {
+      "th": "เย้! พรุ่งนี้ผมมาช่วยอีกนะครับ",
+      "en": "Yay! I'll come help again tomorrow!",
+      "ms": "Yay! Esok saya datang tolong lagi!",
+      "note": "line (kid)",
+      "src": "sources/dialogues/village_delivery.ezd:76"
+    },
+    "dlg.village_delivery.ending_3": {
+      "th": "ยังส่งไม่ครบเลยนะต้น",
+      "en": "You haven't finished the deliveries yet, Ton.",
+      "ms": "Belum habis hantar lagi, Ton.",
+      "note": "line (vendor)",
+      "src": "sources/dialogues/village_delivery.ezd:79"
+    },
+    "dlg.village_delivery.farm_1": {
+      "th": "ผักบุ้งของลุงมาถึงแล้วเหรอ นึกว่าจะลืมซะแล้ว",
+      "en": "My morning glory is here? I thought she'd forgotten.",
+      "ms": "Kangkung Pak Cik dah sampai? Ingatkan dia terlupa.",
+      "note": "line (farmer)",
+      "src": "sources/dialogues/village_delivery.ezd:48"
+    },
+    "dlg.village_delivery.farm_3": {
+      "th": "ขอบใจมากหลาน เอามะม่วงไปฝากตาเพิ่มลูกหนึ่งสิ",
+      "en": "Thanks, kiddo. Take a mango to Grandpa Phoem for me.",
+      "ms": "Terima kasih, cu. Bawakan sebiji mangga untuk Tok Phoem.",
+      "note": "line (farmer)",
+      "src": "sources/dialogues/village_delivery.ezd:51"
+    },
+    "dlg.village_delivery.farm_5": {
+      "th": "เฮ้ย! นั่นผักบุ้งของลุงนะ",
+      "en": "Hey! That's my morning glory!",
+      "ms": "Hoi! Itu kangkung Pak Cik!",
+      "note": "line (farmer)",
+      "src": "sources/dialogues/village_delivery.ezd:54"
+    },
+    "dlg.village_delivery.farm_6": {
+      "th": "ขอโทษครับลุง... ผมแค่หิวนิดหน่อย",
+      "en": "Sorry, Uncle... I was just a little hungry.",
+      "ms": "Maaf, Pak Cik... saya lapar sikit.",
+      "note": "line (kid)",
+      "src": "sources/dialogues/village_delivery.ezd:55"
+    },
+    "dlg.village_delivery.farm_7": {
+      "th": "ต้น! วิ่งเร็วจัง จะไปไหนเหรอ",
+      "en": "Ton! You're running so fast. Where are you off to?",
+      "ms": "Ton! Lajunya berlari. Nak ke mana?",
+      "note": "line (student)",
+      "src": "sources/dialogues/village_delivery.ezd:57"
+    },
+    "dlg.village_delivery.farm_8": {
+      "th": "ไปบ้านตาเพิ่มครับพี่ฝน ส่งของไปแล้ว {delivered} ที่ เหลืออีกที่เดียว",
+      "en": "To Grandpa Phoem's, Fon. {delivered} done, one more to go.",
+      "ms": "Ke rumah Tok Phoem, Kak Fon. Dah hantar {delivered}, tinggal satu lagi.",
+      "note": "line (kid)",
+      "src": "sources/dialogues/village_delivery.ezd:58"
+    },
+    "dlg.village_delivery.farm_c2": {
+      "th": "ส่งผักบุ้งให้ลุงมี",
+      "en": "Give the morning glory to Uncle Mee",
+      "ms": "Beri kangkung kepada Pak Cik Mee",
+      "note": "choice",
+      "src": "sources/dialogues/village_delivery.ezd:49"
+    },
+    "dlg.village_delivery.farm_c4": {
+      "th": "แอบชิมผักบุ้งก่อน",
+      "en": "Sneak a taste of the morning glory",
+      "ms": "Curi rasa kangkung dulu",
+      "note": "choice",
+      "src": "sources/dialogues/village_delivery.ezd:53"
+    },
+    "dlg.village_delivery.market_1": {
+      "th": "เช้าวันเสาร์ ตลาดหน้าหมู่บ้านคึกคักกว่าทุกวัน",
+      "en": "Saturday morning: the village market is busier than ever.",
+      "ms": "Pagi Sabtu, pasar kampung lebih sibuk daripada biasa.",
+      "note": "narration",
+      "src": "sources/dialogues/village_delivery.ezd:20"
+    },
+    "dlg.village_delivery.market_2": {
+      "th": "ต้นจ๋า มาพอดีเลย ช่วยป้าส่งของให้ลูกค้าสามเจ้าหน่อยได้ไหม",
+      "en": "Ton, dear, perfect timing! Can you help me deliver to three customers?",
+      "ms": "Ton, kebetulan sungguh! Boleh tolong Mak Cik hantar barang kepada tiga pelanggan?",
+      "note": "line (vendor)",
+      "src": "sources/dialogues/village_delivery.ezd:21"
+    },
+    "dlg.village_delivery.market_3": {
+      "th": "ตั้งสามเจ้าเลยเหรอครับป้าแดง",
+      "en": "Three whole customers, Auntie Daeng?",
+      "ms": "Tiga orang pelanggan, Mak Cik Daeng?",
+      "note": "line (kid)",
+      "src": "sources/dialogues/village_delivery.ezd:22"
+    },
+    "dlg.village_delivery.market_4": {
+      "th": "ข้าวเหนียวมะม่วงถวายหลวงพี่ ผักบุ้งให้ลุงมี แล้วก็ยาหม่องที่ผู้ใหญ่บ้านฝากให้ตาเพิ่มจ้ะ",
+      "en": "Mango sticky rice for the monk, morning glory for Uncle Mee, and the balm the headman is sending to Grandpa Phoem.",
+      "ms": "Pulut mangga untuk sami, kangkung untuk Pak Cik Mee, dan balsem kiriman ketua kampung untuk Tok Phoem.",
+      "note": "line (vendor)",
+      "src": "sources/dialogues/village_delivery.ezd:23"
+    },
+    "dlg.village_delivery.market_6": {
+      "th": "ขอบใจจ้ะ นี่ค่าขนมสิบบาทนะ",
+      "en": "Thank you, dear. Here's ten baht of snack money.",
+      "ms": "Terima kasih, nak. Ini sepuluh baht duit belanja.",
+      "note": "line (vendor)",
+      "src": "sources/dialogues/village_delivery.ezd:25"
+    },
+    "dlg.village_delivery.market_8": {
+      "th": "ไปเร็วๆ นะลูก เดี๋ยวข้าวเหนียวจะเย็นหมด",
+      "en": "Be quick, the sticky rice will go cold.",
+      "ms": "Cepat sikit, nanti pulut sejuk.",
+      "note": "line (vendor)",
+      "src": "sources/dialogues/village_delivery.ezd:29"
+    },
+    "dlg.village_delivery.market_c5": {
+      "th": "ได้เลยครับ! เดี๋ยวผมจัดให้",
+      "en": "Sure! I'll take care of it.",
+      "ms": "Boleh! Saya uruskan.",
+      "note": "choice",
+      "src": "sources/dialogues/village_delivery.ezd:24"
+    },
+    "dlg.village_delivery.market_c7": {
+      "th": "ขอแวะซื้อน้ำปั่นก่อนได้ไหมครับ",
+      "en": "Can I grab a smoothie first?",
+      "ms": "Boleh saya beli jus dulu?",
+      "note": "choice",
+      "src": "sources/dialogues/village_delivery.ezd:28"
+    },
+    "dlg.village_delivery.market_c9": {
+      "th": "วันนี้ผมไม่ว่างครับ",
+      "en": "I'm busy today.",
+      "ms": "Hari ini saya sibuk.",
+      "note": "choice",
+      "src": "sources/dialogues/village_delivery.ezd:32"
+    },
+    "dlg.village_delivery.refuse_1": {
+      "th": "ไม่เป็นไรจ้ะ ไว้วันหลังมาช่วยป้านะ",
+      "en": "That's all right, dear. Come help me another day.",
+      "ms": "Tak apa, nak. Lain kali datang tolong Mak Cik, ya.",
+      "note": "line (vendor)",
+      "src": "sources/dialogues/village_delivery.ezd:35"
+    },
+    "dlg.village_delivery.temple_1": {
+      "th": "ต้นวิ่งผ่านร้านก๋วยเตี๋ยวไปจนถึงหน้าวัด",
+      "en": "Ton runs past the noodle shop all the way to the temple.",
+      "ms": "Ton berlari melepasi kedai mi sampai ke hadapan wat.",
+      "note": "narration",
+      "src": "sources/dialogues/village_delivery.ezd:40"
+    },
+    "dlg.village_delivery.temple_2": {
+      "th": "เจริญพร ต้น วันนี้มาแต่เช้าเลยนะ",
+      "en": "Blessings, Ton. You're here early today.",
+      "ms": "Selamat pagi, Ton. Awal kamu datang hari ini.",
+      "note": "line (monk)",
+      "src": "sources/dialogues/village_delivery.ezd:41"
+    },
+    "dlg.village_delivery.temple_3": {
+      "th": "ป้าแดงฝากข้าวเหนียวมะม่วงมาถวายครับหลวงพี่",
+      "en": "Auntie Daeng sent this mango sticky rice as an offering.",
+      "ms": "Mak Cik Daeng kirim pulut mangga ini sebagai persembahan.",
+      "note": "line (kid)",
+      "src": "sources/dialogues/village_delivery.ezd:42"
+    },
+    "dlg.village_delivery.temple_4": {
+      "th": "อนุโมทนา ฝากขอบใจป้าแดงด้วยนะ",
+      "en": "Thank you. Please pass my thanks to Auntie Daeng.",
+      "ms": "Terima kasih. Sampaikan terima kasih saya kepada Mak Cik Daeng.",
+      "note": "line (monk)",
+      "src": "sources/dialogues/village_delivery.ezd:44"
+    },
+    "dlg.village_delivery.title": {
+      "th": "ต้นส่งของรอบหมู่บ้าน",
+      "en": "Ton's village deliveries",
+      "ms": "Penghantaran Ton di kampung",
+      "note": "dialogue title",
+      "src": "sources/dialogues/village_delivery.ezd:3"
+    }
+  }
+}

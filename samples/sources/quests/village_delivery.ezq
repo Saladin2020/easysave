@@ -1,0 +1,75 @@
+// ต้นส่งของรอบหมู่บ้าน — Easy Quest demo, linked to Easy Dialogue's village_delivery.ezd
+// The dialogue fires @camera market / temple / elder_house and @sfx fanfare, and owns delivered, coins, mango.
+// Map places (enter …) are the spawn names of Easy Tilemap's thai_village_topdown map.
+@title ต้นส่งของรอบหมู่บ้าน
+@id village_delivery
+@dialogue village_delivery
+
+@flag coins = 0 label="ค่าขนม" icon=coin
+@flag reputation = 0 label="ความดี" icon=heart
+
+@item sticky_rice "ข้าวเหนียวมะม่วง" desc="ของถวายหลวงพี่"
+@item morning_glory "ผักบุ้ง" desc="ของลุงมี"
+@item balm "ยาหม่อง" desc="ผู้ใหญ่บ้านฝากให้ตาเพิ่ม"
+@item mango "มะม่วง" desc="ลุงมีฝากไปให้ตาเพิ่ม"
+@item kanom_chan "ขนมชั้น" desc="รางวัลจากป้าแดง"
+@item nam_pan "น้ำปั่น" desc="แก้วโปรดของต้น"
+
+=== village_delivery "ต้นส่งของรอบหมู่บ้าน"
+giver vendor
+summary ป้าแดงฝากของให้ลูกค้าสามเจ้า ส่งไปแล้ว {delivered}/3 ที่
+start on camera market
+on start:
+    give sticky_rice
+    give morning_glory
+    give balm
+step accept "รับงานจากป้าแดง"
+    done when coins >= 5
+    hint คุยกับป้าแดงที่ตลาด
+step temple "ถวายข้าวเหนียวมะม่วงให้หลวงพี่"
+    done on camera temple
+    hint วัดอยู่ทางทิศตะวันตกเฉียงเหนือ
+    take sticky_rice
+step farm "ส่งผักบุ้งให้ลุงมีที่นา"
+    done when delivered >= 2
+    take morning_glory
+bonus mango "รับมะม่วงจากลุงมีไปฝากตาเพิ่ม"
+    done when mango
+    give mango
+step elder "เอายาหม่องไปให้ตาเพิ่ม"
+    done on camera elder_house
+    take balm
+    take mango
+step report "ส่งของครบสามที่"
+    done when delivered >= 3
+fail on end village_delivery
+on fail:
+    take sticky_rice
+    take morning_glory
+    take balm
+reward:
+    ~ reputation += 1
+    give kanom_chan
+    @sfx fanfare
+
+=== snack_money "ค่าขนมของต้น"
+giver kid
+summary เก็บค่าขนมไว้ซื้อน้ำปั่น ตอนนี้มี {coins} บาท
+step ten "ได้ค่าขนม 10 บาท"
+    done when coins >= 10
+step fifteen "เก็บให้ครบ 15 บาท"
+    done when coins >= 15
+reward:
+    give nam_pan
+
+=== help_tomorrow "พรุ่งนี้มาช่วยอีก"
+giver vendor
+summary ต้นสัญญาว่าพรุ่งนี้จะมาช่วยป้าแดงที่ตลาดอีก
+requires done(village_delivery) and reputation >= 1
+start on talk vendor
+step market "ไปตลาดแต่เช้า"
+    done on enter market
+step stall "ช่วยป้าแดงจัดแผง"
+    done on talk vendor
+reward:
+    ~ reputation += 1

@@ -1,0 +1,460 @@
+{
+  "format": "easyi18n/1",
+  "id": "quests",
+  "source": "th",
+  "locales": [
+    "th",
+    "en",
+    "ms"
+  ],
+  "strings": {
+    "quest.flag.coins": {
+      "th": "ค่าขนม",
+      "en": "Snack money",
+      "ms": "Duit belanja",
+      "note": "flag label",
+      "src": "sources/quests/village_delivery.ezq:8"
+    },
+    "quest.flag.ketupat": {
+      "th": "ตูปะ",
+      "en": "Ketupat",
+      "ms": "Ketupat",
+      "note": "flag label",
+      "src": "sources/quests/ramadan_raya.ezq:10"
+    },
+    "quest.flag.kindness": {
+      "th": "น้ำใจ",
+      "en": "Kindness",
+      "ms": "Budi",
+      "note": "flag label",
+      "src": "sources/quests/ramadan_raya.ezq:9"
+    },
+    "quest.flag.reputation": {
+      "th": "ความดี",
+      "en": "Good deeds",
+      "ms": "Kebaikan",
+      "note": "flag label",
+      "src": "sources/quests/village_delivery.ezq:9"
+    },
+    "quest.help_tomorrow.step.market": {
+      "th": "ไปตลาดแต่เช้า",
+      "en": "Go to the market early",
+      "ms": "Pergi ke pasar awal pagi",
+      "note": "step",
+      "src": "sources/quests/village_delivery.ezq:70"
+    },
+    "quest.help_tomorrow.step.stall": {
+      "th": "ช่วยป้าแดงจัดแผง",
+      "en": "Help Auntie Daeng set up her stall",
+      "ms": "Tolong Mak Cik Daeng menyusun gerai",
+      "note": "step",
+      "src": "sources/quests/village_delivery.ezq:72"
+    },
+    "quest.help_tomorrow.summary": {
+      "th": "ต้นสัญญาว่าพรุ่งนี้จะมาช่วยป้าแดงที่ตลาดอีก",
+      "en": "Ton promised to help Auntie Daeng at the market again tomorrow.",
+      "ms": "Ton berjanji akan menolong Mak Cik Daeng di pasar lagi esok.",
+      "note": "quest summary",
+      "src": "sources/quests/village_delivery.ezq:67"
+    },
+    "quest.help_tomorrow.title": {
+      "th": "พรุ่งนี้มาช่วยอีก",
+      "en": "Back again tomorrow",
+      "ms": "Datang lagi esok",
+      "note": "quest title",
+      "src": "sources/quests/village_delivery.ezq:65"
+    },
+    "quest.iftar_share.step.iftar": {
+      "th": "อยู่จนถึงเวลาละศีลอด",
+      "en": "Stay until it is time to break the fast",
+      "ms": "Tunggu sehingga waktu berbuka",
+      "note": "step",
+      "src": "sources/quests/ramadan_raya.ezq:35"
+    },
+    "quest.iftar_share.step.iftar.hint": {
+      "th": "ตะวันตกดินแล้วจะได้ยินเสียงอะซานจากมัสยิด",
+      "en": "After sunset you will hear the azan from the mosque",
+      "ms": "Selepas matahari terbenam azan akan berkumandang dari masjid",
+      "note": "step hint",
+      "src": "sources/quests/ramadan_raya.ezq:37"
+    },
+    "quest.iftar_share.step.kurma": {
+      "th": "ยื่นอินทผลัมให้ปะจิอิสมะแอ",
+      "en": "Hand the dates to Pak Ismail",
+      "ms": "Hulurkan kurma kepada Pak Ismail",
+      "note": "step",
+      "src": "sources/quests/ramadan_raya.ezq:32"
+    },
+    "quest.iftar_share.step.mosque": {
+      "th": "นำบูโบกับส้มโอไปส่งที่ลานมัสยิด",
+      "en": "Bring the bubur and pomelo to the mosque yard",
+      "ms": "Bawa bubur dan limau bali ke halaman masjid",
+      "note": "step",
+      "src": "sources/quests/ramadan_raya.ezq:27"
+    },
+    "quest.iftar_share.step.mosque.hint": {
+      "th": "มัสยิดไม้อยู่ทางทิศตะวันออกเฉียงเหนือ เลยตลาดไป",
+      "en": "The wooden mosque is north-east, past the market",
+      "ms": "Masjid kayu di arah timur laut, selepas pasar",
+      "note": "step hint",
+      "src": "sources/quests/ramadan_raya.ezq:29"
+    },
+    "quest.iftar_share.summary": {
+      "th": "ช่วยก๊ะนะกับป้าแดงส่งอาหารละศีลอดไปที่มัสยิด",
+      "en": "Help Kak Na and Auntie Daeng bring iftar food to the mosque.",
+      "ms": "Tolong Kak Na dan Mak Cik Daeng menghantar juadah berbuka ke masjid.",
+      "note": "quest summary",
+      "src": "sources/quests/ramadan_raya.ezq:20"
+    },
+    "quest.iftar_share.title": {
+      "th": "แบ่งอาหารละศีลอด",
+      "en": "Sharing iftar",
+      "ms": "Berkongsi juadah berbuka",
+      "note": "quest title",
+      "src": "sources/quests/ramadan_raya.ezq:18"
+    },
+    "quest.item.balm.desc": {
+      "th": "ผู้ใหญ่บ้านฝากให้ตาเพิ่ม",
+      "en": "From the headman for Grandpa Phoem",
+      "ms": "Kiriman ketua kampung untuk Tok Phoem",
+      "note": "quest item description",
+      "src": "sources/quests/village_delivery.ezq:13"
+    },
+    "quest.item.balm.name": {
+      "th": "ยาหม่อง",
+      "en": "Herbal balm",
+      "ms": "Balsem",
+      "note": "quest item name",
+      "src": "sources/quests/village_delivery.ezq:13"
+    },
+    "quest.item.bubur.desc": {
+      "th": "ข้าวต้มสำหรับละศีลอด ฝีมือก๊ะนะ",
+      "en": "Rice porridge for breaking the fast, made by Kak Na",
+      "ms": "Bubur untuk berbuka puasa, air tangan Kak Na",
+      "note": "quest item description",
+      "src": "sources/quests/ramadan_raya.ezq:12"
+    },
+    "quest.item.bubur.name": {
+      "th": "บูโบ",
+      "en": "Bubur",
+      "ms": "Bubur",
+      "note": "quest item name",
+      "src": "sources/quests/ramadan_raya.ezq:12"
+    },
+    "quest.item.kanom_chan.desc": {
+      "th": "รางวัลจากป้าแดง",
+      "en": "A reward from Auntie Daeng",
+      "ms": "Hadiah daripada Mak Cik Daeng",
+      "note": "quest item description",
+      "src": "sources/quests/village_delivery.ezq:15"
+    },
+    "quest.item.kanom_chan.name": {
+      "th": "ขนมชั้น",
+      "en": "Layer cake",
+      "ms": "Kuih lapis",
+      "note": "quest item name",
+      "src": "sources/quests/village_delivery.ezq:15"
+    },
+    "quest.item.ketupat_shell.desc": {
+      "th": "ปลอกใบมะพร้าวสาน สำหรับหุงข้าววันรายอ",
+      "en": "A woven coconut-leaf case for cooking rice on Raya",
+      "ms": "Sarung daun kelapa yang dianyam untuk menanak nasi pada hari Raya",
+      "note": "quest item description",
+      "src": "sources/quests/ramadan_raya.ezq:15"
+    },
+    "quest.item.ketupat_shell.name": {
+      "th": "ตูปะ",
+      "en": "Ketupat",
+      "ms": "Ketupat",
+      "note": "quest item name",
+      "src": "sources/quests/ramadan_raya.ezq:15"
+    },
+    "quest.item.kurma.desc": {
+      "th": "ละศีลอดด้วยอินทผลัมกับน้ำ",
+      "en": "Break the fast with dates and water",
+      "ms": "Berbuka dengan kurma dan air",
+      "note": "quest item description",
+      "src": "sources/quests/ramadan_raya.ezq:13"
+    },
+    "quest.item.kurma.name": {
+      "th": "อินทผลัม",
+      "en": "Dates",
+      "ms": "Kurma",
+      "note": "quest item name",
+      "src": "sources/quests/ramadan_raya.ezq:13"
+    },
+    "quest.item.mango.desc": {
+      "th": "ลุงมีฝากไปให้ตาเพิ่ม",
+      "en": "Uncle Mee's gift for Grandpa Phoem",
+      "ms": "Kiriman Pak Cik Mee untuk Tok Phoem",
+      "note": "quest item description",
+      "src": "sources/quests/village_delivery.ezq:14"
+    },
+    "quest.item.mango.name": {
+      "th": "มะม่วง",
+      "en": "Mango",
+      "ms": "Mangga",
+      "note": "quest item name",
+      "src": "sources/quests/village_delivery.ezq:14"
+    },
+    "quest.item.morning_glory.desc": {
+      "th": "ของลุงมี",
+      "en": "For Uncle Mee",
+      "ms": "Untuk Pak Cik Mee",
+      "note": "quest item description",
+      "src": "sources/quests/village_delivery.ezq:12"
+    },
+    "quest.item.morning_glory.name": {
+      "th": "ผักบุ้ง",
+      "en": "Morning glory",
+      "ms": "Kangkung",
+      "note": "quest item name",
+      "src": "sources/quests/village_delivery.ezq:12"
+    },
+    "quest.item.nam_pan.desc": {
+      "th": "แก้วโปรดของต้น",
+      "en": "Ton's favourite cup",
+      "ms": "Minuman kegemaran Ton",
+      "note": "quest item description",
+      "src": "sources/quests/village_delivery.ezq:16"
+    },
+    "quest.item.nam_pan.name": {
+      "th": "น้ำปั่น",
+      "en": "Fruit smoothie",
+      "ms": "Jus buah",
+      "note": "quest item name",
+      "src": "sources/quests/village_delivery.ezq:16"
+    },
+    "quest.item.pelita.desc": {
+      "th": "ตะเกียงไม้ไผ่ จุดหน้าบ้านคืนก่อนรายอ",
+      "en": "A bamboo oil lamp lit outside the house the night before Raya",
+      "ms": "Pelita buluh yang dinyalakan di depan rumah pada malam Raya",
+      "note": "quest item description",
+      "src": "sources/quests/ramadan_raya.ezq:16"
+    },
+    "quest.item.pelita.name": {
+      "th": "ตะเกียงปะลิตา",
+      "en": "Pelita lamp",
+      "ms": "Pelita",
+      "note": "quest item name",
+      "src": "sources/quests/ramadan_raya.ezq:16"
+    },
+    "quest.item.pomelo.desc": {
+      "th": "ป้าแดงฝากไปแบ่งกันที่มัสยิด",
+      "en": "Auntie Daeng's gift to share at the mosque",
+      "ms": "Kiriman Mak Cik Daeng untuk dikongsi di masjid",
+      "note": "quest item description",
+      "src": "sources/quests/ramadan_raya.ezq:14"
+    },
+    "quest.item.pomelo.name": {
+      "th": "ส้มโอ",
+      "en": "Pomelo",
+      "ms": "Limau bali",
+      "note": "quest item name",
+      "src": "sources/quests/ramadan_raya.ezq:14"
+    },
+    "quest.item.sticky_rice.desc": {
+      "th": "ของถวายหลวงพี่",
+      "en": "An offering for the monk",
+      "ms": "Persembahan untuk sami",
+      "note": "quest item description",
+      "src": "sources/quests/village_delivery.ezq:11"
+    },
+    "quest.item.sticky_rice.name": {
+      "th": "ข้าวเหนียวมะม่วง",
+      "en": "Mango sticky rice",
+      "ms": "Pulut mangga",
+      "note": "quest item name",
+      "src": "sources/quests/village_delivery.ezq:11"
+    },
+    "quest.ramadan_raya.file_title": {
+      "th": "รอมฎอนถึงรายอ",
+      "en": "From Ramadan to Raya",
+      "ms": "Dari Ramadan ke Hari Raya",
+      "note": "quest file title",
+      "src": "sources/quests/ramadan_raya.ezq:5"
+    },
+    "quest.raya_prep.step.neat": {
+      "th": "สานตูปะอย่างตั้งใจ (ได้ 4 ลูก)",
+      "en": "Weave carefully (make 4)",
+      "ms": "Anyam dengan teliti (dapat 4)",
+      "note": "bonus step",
+      "src": "sources/quests/ramadan_raya.ezq:53"
+    },
+    "quest.raya_prep.step.pelita": {
+      "th": "ช่วยก๊ะฟาตีมะห์จุดตะเกียงปะลิตา",
+      "en": "Help Kak Fatimah light the pelita",
+      "ms": "Tolong Kak Fatimah menyalakan pelita",
+      "note": "step",
+      "src": "sources/quests/ramadan_raya.ezq:50"
+    },
+    "quest.raya_prep.step.weave": {
+      "th": "สานตูปะกับปะจิให้ครบ 3 ลูก",
+      "en": "Weave 3 ketupat with Pak Ji",
+      "ms": "Anyam 3 ketupat bersama Pak Ji",
+      "note": "step",
+      "src": "sources/quests/ramadan_raya.ezq:46"
+    },
+    "quest.raya_prep.step.weave.hint": {
+      "th": "ที่ลานหน้าตาดีกา",
+      "en": "In the yard in front of the tadika",
+      "ms": "Di halaman depan tadika",
+      "note": "step hint",
+      "src": "sources/quests/ramadan_raya.ezq:48"
+    },
+    "quest.raya_prep.summary": {
+      "th": "สานตูปะแล้ว {ketupat}/3 ลูก คืนนี้จุดตะเกียงปะลิตา",
+      "en": "{ketupat}/3 ketupat woven. Light the pelita tonight.",
+      "ms": "Sudah anyam {ketupat}/3 ketupat. Nyalakan pelita malam ini.",
+      "note": "quest summary",
+      "src": "sources/quests/ramadan_raya.ezq:43"
+    },
+    "quest.raya_prep.title": {
+      "th": "เตรียมรายอ",
+      "en": "Getting ready for Raya",
+      "ms": "Persiapan Raya",
+      "note": "quest title",
+      "src": "sources/quests/ramadan_raya.ezq:41"
+    },
+    "quest.raya_visit.step.greet": {
+      "th": "อวยพรวันรายอกับอาดัม",
+      "en": "Wish Adam a happy Raya",
+      "ms": "Ucap selamat Hari Raya kepada Adam",
+      "note": "step",
+      "src": "sources/quests/ramadan_raya.ezq:63"
+    },
+    "quest.raya_visit.step.maaf": {
+      "th": "ขอมาอัฟ (ขออภัยกัน)",
+      "en": "Ask for forgiveness (maaf)",
+      "ms": "Bermaaf-maafan",
+      "note": "step",
+      "src": "sources/quests/ramadan_raya.ezq:65"
+    },
+    "quest.raya_visit.step.share": {
+      "th": "เอาตูปะไปฝากตาเพิ่มกับป้าแดง",
+      "en": "Bring ketupat to Grandpa Phoem and Auntie Daeng",
+      "ms": "Bawa ketupat kepada Tok Phoem dan Mak Cik Daeng",
+      "note": "step",
+      "src": "sources/quests/ramadan_raya.ezq:67"
+    },
+    "quest.raya_visit.summary": {
+      "th": "อวยพรวันรายอ ขอมาอัฟ แล้วเอาตูปะไปแบ่งเพื่อนบ้าน",
+      "en": "Give Raya greetings, ask forgiveness, then share ketupat with the neighbours.",
+      "ms": "Ucap selamat Hari Raya, bermaaf-maafan, kemudian kongsi ketupat dengan jiran.",
+      "note": "quest summary",
+      "src": "sources/quests/ramadan_raya.ezq:60"
+    },
+    "quest.raya_visit.title": {
+      "th": "วันรายอ",
+      "en": "Hari Raya",
+      "ms": "Hari Raya",
+      "note": "quest title",
+      "src": "sources/quests/ramadan_raya.ezq:58"
+    },
+    "quest.snack_money.step.fifteen": {
+      "th": "เก็บให้ครบ 15 บาท",
+      "en": "Save up 15 baht",
+      "ms": "Kumpul sehingga 15 baht",
+      "note": "step",
+      "src": "sources/quests/village_delivery.ezq:60"
+    },
+    "quest.snack_money.step.ten": {
+      "th": "ได้ค่าขนม 10 บาท",
+      "en": "Earn 10 baht of snack money",
+      "ms": "Dapat 10 baht duit belanja",
+      "note": "step",
+      "src": "sources/quests/village_delivery.ezq:58"
+    },
+    "quest.snack_money.summary": {
+      "th": "เก็บค่าขนมไว้ซื้อน้ำปั่น ตอนนี้มี {coins} บาท",
+      "en": "Saving up for a smoothie. {coins} baht so far.",
+      "ms": "Mengumpul duit untuk beli jus. Setakat ini {coins} baht.",
+      "note": "quest summary",
+      "src": "sources/quests/village_delivery.ezq:57"
+    },
+    "quest.snack_money.title": {
+      "th": "ค่าขนมของต้น",
+      "en": "Ton's snack money",
+      "ms": "Duit belanja Ton",
+      "note": "quest title",
+      "src": "sources/quests/village_delivery.ezq:55"
+    },
+    "quest.village_delivery.file_title": {
+      "th": "ต้นส่งของรอบหมู่บ้าน",
+      "en": "Ton's village deliveries",
+      "ms": "Penghantaran Ton di kampung",
+      "note": "quest file title",
+      "src": "sources/quests/village_delivery.ezq:4"
+    },
+    "quest.village_delivery.step.accept": {
+      "th": "รับงานจากป้าแดง",
+      "en": "Take the job from Auntie Daeng",
+      "ms": "Terima tugas daripada Mak Cik Daeng",
+      "note": "step",
+      "src": "sources/quests/village_delivery.ezq:26"
+    },
+    "quest.village_delivery.step.accept.hint": {
+      "th": "คุยกับป้าแดงที่ตลาด",
+      "en": "Talk to Auntie Daeng at the market",
+      "ms": "Bercakap dengan Mak Cik Daeng di pasar",
+      "note": "step hint",
+      "src": "sources/quests/village_delivery.ezq:28"
+    },
+    "quest.village_delivery.step.elder": {
+      "th": "เอายาหม่องไปให้ตาเพิ่ม",
+      "en": "Bring the balm to Grandpa Phoem",
+      "ms": "Bawa balsem kepada Tok Phoem",
+      "note": "step",
+      "src": "sources/quests/village_delivery.ezq:39"
+    },
+    "quest.village_delivery.step.farm": {
+      "th": "ส่งผักบุ้งให้ลุงมีที่นา",
+      "en": "Bring the morning glory to Uncle Mee's field",
+      "ms": "Hantar kangkung ke sawah Pak Cik Mee",
+      "note": "step",
+      "src": "sources/quests/village_delivery.ezq:33"
+    },
+    "quest.village_delivery.step.mango": {
+      "th": "รับมะม่วงจากลุงมีไปฝากตาเพิ่ม",
+      "en": "Take Uncle Mee's mango to Grandpa Phoem",
+      "ms": "Bawa mangga Pak Cik Mee kepada Tok Phoem",
+      "note": "bonus step",
+      "src": "sources/quests/village_delivery.ezq:36"
+    },
+    "quest.village_delivery.step.report": {
+      "th": "ส่งของครบสามที่",
+      "en": "Finish all three deliveries",
+      "ms": "Selesaikan ketiga-tiga penghantaran",
+      "note": "step",
+      "src": "sources/quests/village_delivery.ezq:43"
+    },
+    "quest.village_delivery.step.temple": {
+      "th": "ถวายข้าวเหนียวมะม่วงให้หลวงพี่",
+      "en": "Offer the mango sticky rice to the monk",
+      "ms": "Persembahkan pulut mangga kepada sami",
+      "note": "step",
+      "src": "sources/quests/village_delivery.ezq:29"
+    },
+    "quest.village_delivery.step.temple.hint": {
+      "th": "วัดอยู่ทางทิศตะวันตกเฉียงเหนือ",
+      "en": "The temple is to the north-west",
+      "ms": "Wat terletak di arah barat laut",
+      "note": "step hint",
+      "src": "sources/quests/village_delivery.ezq:31"
+    },
+    "quest.village_delivery.summary": {
+      "th": "ป้าแดงฝากของให้ลูกค้าสามเจ้า ส่งไปแล้ว {delivered}/3 ที่",
+      "en": "Auntie Daeng has orders for three customers. Delivered {delivered}/3.",
+      "ms": "Mak Cik Daeng ada pesanan untuk tiga pelanggan. Sudah dihantar {delivered}/3.",
+      "note": "quest summary",
+      "src": "sources/quests/village_delivery.ezq:20"
+    },
+    "quest.village_delivery.title": {
+      "th": "ต้นส่งของรอบหมู่บ้าน",
+      "en": "Ton's village deliveries",
+      "ms": "Penghantaran Ton di kampung",
+      "note": "quest title",
+      "src": "sources/quests/village_delivery.ezq:18"
+    }
+  }
+}

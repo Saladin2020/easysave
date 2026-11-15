@@ -1,0 +1,50 @@
+{
+  "format": "easysave-slot/1",
+  "game": "village_delivery",
+  "version": 1,
+  "slot": "slot_1",
+  "meta": {
+    "playtime": 1260,
+    "savedAt": "2026-03-02T08:15:00+07:00",
+    "label": "ตลาดเช้า · old v0.1 save"
+  },
+  "data": {
+    "player": {
+      "name": "ต้น",
+      "coins": 15,
+      "x": 212.5,
+      "y": 96,
+      "debug": true
+    },
+    "quest": "village_delivery",
+    "vars": {
+      "delivered": 1,
+      "coins": 15,
+      "mango": false
+    },
+    "flags": {
+      "met_vendor": "yes",
+      "met_monk": "yes",
+      "met_farmer": "no"
+    },
+    "orders": [
+      {
+        "customer": "monk",
+        "item": "sticky_rice"
+      },
+      {
+        "customer": "farmer",
+        "item": "morning_glory"
+      },
+      {
+        "customer": "elder",
+        "item": "balm"
+      }
+    ],
+    "settings": {
+      "text_speed": "fast",
+      "music": 0.6
+    }
+  },
+  "checksum": "4da482e3"
+}

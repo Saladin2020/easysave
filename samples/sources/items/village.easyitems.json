@@ -1,0 +1,995 @@
+{
+  "format": "easyitems/1",
+  "id": "village",
+  "name": {
+    "th": "ของใช้หมู่บ้าน",
+    "en": "Village goods"
+  },
+  "rules": {
+    "slots": 24,
+    "currency": "coin",
+    "startingCoins": 60,
+    "startingItems": [
+      {
+        "item": "letter",
+        "n": 1
+      },
+      {
+        "item": "thai_tea",
+        "n": 1
+      }
+    ],
+    "equipSlots": [
+      "head",
+      "body",
+      "hand",
+      "accessory",
+      "vehicle"
+    ],
+    "iconSize": 24
+  },
+  "items": [
+    {
+      "id": "mango_sticky_rice",
+      "name": {
+        "th": "ข้าวเหนียวมะม่วง",
+        "en": "Mango sticky rice",
+        "ms": "Pulut mangga"
+      },
+      "category": "food",
+      "price": 40,
+      "stack": 10,
+      "icon": "mango_sticky_rice",
+      "desc": {
+        "th": "ของหวานหน้าร้อน ราดกะทิหอมๆ",
+        "en": "Summer dessert with coconut cream"
+      },
+      "effects": [
+        {
+          "kind": "heal",
+          "amount": 30
+        },
+        {
+          "kind": "mood",
+          "amount": 5
+        }
+      ],
+      "tags": [
+        "dessert",
+        "thai"
+      ]
+    },
+    {
+      "id": "thai_tea",
+      "name": {
+        "th": "ชาเย็น",
+        "en": "Thai iced tea",
+        "ms": "Teh ais Thai"
+      },
+      "category": "drink",
+      "price": 25,
+      "stack": 10,
+      "icon": "thai_tea",
+      "effects": [
+        {
+          "kind": "energy",
+          "amount": 20
+        }
+      ],
+      "tags": [
+        "thai"
+      ]
+    },
+    {
+      "id": "rice_bag",
+      "name": {
+        "th": "ข้าวสาร",
+        "en": "Rice bag",
+        "ms": "Beras"
+      },
+      "category": "ingredient",
+      "price": 120,
+      "stack": 5,
+      "icon": "rice_bag",
+      "desc": {
+        "th": "ข้าวหอมมะลิถุงห้ากิโล",
+        "en": "5 kg of jasmine rice"
+      },
+      "tags": [
+        "staple"
+      ]
+    },
+    {
+      "id": "fish_sauce",
+      "name": {
+        "th": "น้ำปลา",
+        "en": "Fish sauce",
+        "ms": "Sos ikan"
+      },
+      "category": "ingredient",
+      "price": 20,
+      "stack": 10,
+      "icon": "fish_sauce",
+      "tags": [
+        "seasoning"
+      ]
+    },
+    {
+      "id": "mango",
+      "name": {
+        "th": "มะม่วง",
+        "en": "Mango",
+        "ms": "Mangga"
+      },
+      "category": "food",
+      "price": 15,
+      "stack": 20,
+      "icon": "mango",
+      "effects": [
+        {
+          "kind": "heal",
+          "amount": 10
+        }
+      ],
+      "tags": [
+        "fruit"
+      ]
+    },
+    {
+      "id": "sticky_rice",
+      "name": {
+        "th": "ข้าวเหนียว",
+        "en": "Sticky rice",
+        "ms": "Pulut"
+      },
+      "category": "food",
+      "price": 10,
+      "stack": 20,
+      "icon": "sticky_rice",
+      "effects": [
+        {
+          "kind": "heal",
+          "amount": 12
+        }
+      ]
+    },
+    {
+      "id": "coconut",
+      "name": {
+        "th": "มะพร้าว",
+        "en": "Coconut",
+        "ms": "Kelapa"
+      },
+      "category": "ingredient",
+      "price": 18,
+      "stack": 10,
+      "icon": "coconut",
+      "tags": [
+        "fruit"
+      ]
+    },
+    {
+      "id": "banana",
+      "name": {
+        "th": "กล้วยหอม",
+        "en": "Bananas",
+        "ms": "Pisang"
+      },
+      "category": "food",
+      "price": 12,
+      "stack": 20,
+      "icon": "banana",
+      "effects": [
+        {
+          "kind": "heal",
+          "amount": 8
+        }
+      ],
+      "tags": [
+        "fruit"
+      ]
+    },
+    {
+      "id": "egg",
+      "name": {
+        "th": "ไข่ไก่",
+        "en": "Eggs",
+        "ms": "Telur"
+      },
+      "category": "ingredient",
+      "price": 6,
+      "stack": 30,
+      "icon": "egg"
+    },
+    {
+      "id": "chili",
+      "name": {
+        "th": "พริกขี้หนู",
+        "en": "Bird's eye chili",
+        "ms": "Cili padi"
+      },
+      "category": "ingredient",
+      "price": 5,
+      "stack": 30,
+      "icon": "chili",
+      "tags": [
+        "seasoning"
+      ]
+    },
+    {
+      "id": "morning_glory",
+      "name": {
+        "th": "ผักบุ้ง",
+        "en": "Morning glory",
+        "ms": "Kangkung"
+      },
+      "category": "ingredient",
+      "price": 10,
+      "stack": 20,
+      "icon": "morning_glory",
+      "tags": [
+        "vegetable"
+      ]
+    },
+    {
+      "id": "kanom_chan",
+      "name": {
+        "th": "ขนมชั้น",
+        "en": "Layer cake",
+        "ms": "Kuih lapis"
+      },
+      "category": "food",
+      "price": 20,
+      "stack": 10,
+      "icon": "kanom_chan",
+      "effects": [
+        {
+          "kind": "heal",
+          "amount": 15
+        },
+        {
+          "kind": "mood",
+          "amount": 5
+        }
+      ],
+      "tags": [
+        "dessert",
+        "thai"
+      ]
+    },
+    {
+      "id": "nam_pan",
+      "name": {
+        "th": "น้ำปั่น",
+        "en": "Fruit smoothie",
+        "ms": "Jus buah"
+      },
+      "category": "drink",
+      "price": 30,
+      "stack": 5,
+      "icon": "nam_pan",
+      "effects": [
+        {
+          "kind": "energy",
+          "amount": 25
+        }
+      ]
+    },
+    {
+      "id": "balm",
+      "name": {
+        "th": "ยาหม่อง",
+        "en": "Herbal balm",
+        "ms": "Balsem"
+      },
+      "category": "tool",
+      "price": 35,
+      "stack": 10,
+      "icon": "balm",
+      "effects": [
+        {
+          "kind": "heal",
+          "amount": 25
+        }
+      ],
+      "consumable": true
+    },
+    {
+      "id": "pla_tu",
+      "name": {
+        "th": "ปลาทู",
+        "en": "Mackerel",
+        "ms": "Ikan kembung"
+      },
+      "category": "ingredient",
+      "price": 30,
+      "stack": 10,
+      "icon": "pla_tu",
+      "tags": [
+        "seafood"
+      ]
+    },
+    {
+      "id": "pomelo",
+      "name": {
+        "th": "ส้มโอ",
+        "en": "Pomelo",
+        "ms": "Limau bali"
+      },
+      "category": "food",
+      "price": 35,
+      "stack": 10,
+      "icon": "pomelo",
+      "effects": [
+        {
+          "kind": "heal",
+          "amount": 15
+        }
+      ],
+      "tags": [
+        "fruit"
+      ]
+    },
+    {
+      "id": "krathong",
+      "name": {
+        "th": "กระทง",
+        "en": "Krathong",
+        "ms": "Krathong"
+      },
+      "category": "festival",
+      "price": 45,
+      "stack": 5,
+      "icon": "krathong",
+      "desc": {
+        "th": "ใบตองกับดอกไม้ ลอยในคืนวันเพ็ญเดือนสิบสอง",
+        "en": "Banana leaf float for Loy Krathong"
+      },
+      "tags": [
+        "loy_krathong"
+      ]
+    },
+    {
+      "id": "garland",
+      "name": {
+        "th": "พวงมาลัย",
+        "en": "Jasmine garland",
+        "ms": "Kalung melur"
+      },
+      "category": "gift",
+      "price": 20,
+      "stack": 10,
+      "icon": "garland",
+      "tags": [
+        "flower"
+      ]
+    },
+    {
+      "id": "khom_loi",
+      "name": {
+        "th": "โคมลอย",
+        "en": "Sky lantern",
+        "ms": "Tanglung terbang"
+      },
+      "category": "festival",
+      "price": 60,
+      "stack": 5,
+      "icon": "khom_loi",
+      "tags": [
+        "loy_krathong"
+      ]
+    },
+    {
+      "id": "candle",
+      "name": {
+        "th": "เทียน",
+        "en": "Candle",
+        "ms": "Lilin"
+      },
+      "category": "material",
+      "price": 5,
+      "stack": 20,
+      "icon": "candle"
+    },
+    {
+      "id": "lotus",
+      "name": {
+        "th": "ดอกบัว",
+        "en": "Lotus",
+        "ms": "Teratai"
+      },
+      "category": "gift",
+      "price": 15,
+      "stack": 10,
+      "icon": "lotus",
+      "tags": [
+        "flower"
+      ]
+    },
+    {
+      "id": "wheel",
+      "name": {
+        "th": "ล้อจักรยาน",
+        "en": "Bicycle wheel",
+        "ms": "Roda basikal"
+      },
+      "category": "material",
+      "price": 150,
+      "stack": 4,
+      "icon": "wheel",
+      "tags": [
+        "bicycle"
+      ]
+    },
+    {
+      "id": "chain",
+      "name": {
+        "th": "โซ่จักรยาน",
+        "en": "Bicycle chain",
+        "ms": "Rantai basikal"
+      },
+      "category": "material",
+      "price": 80,
+      "stack": 4,
+      "icon": "chain",
+      "tags": [
+        "bicycle"
+      ]
+    },
+    {
+      "id": "bike_bell",
+      "name": {
+        "th": "กระดิ่งจักรยาน",
+        "en": "Bicycle bell",
+        "ms": "Loceng basikal"
+      },
+      "category": "material",
+      "price": 40,
+      "stack": 4,
+      "icon": "bike_bell",
+      "tags": [
+        "bicycle"
+      ]
+    },
+    {
+      "id": "patch_kit",
+      "name": {
+        "th": "ชุดปะยาง",
+        "en": "Tire patch kit",
+        "ms": "Kit tampal tayar"
+      },
+      "category": "tool",
+      "price": 45,
+      "stack": 5,
+      "icon": "patch_kit",
+      "tags": [
+        "bicycle"
+      ]
+    },
+    {
+      "id": "bicycle",
+      "name": {
+        "th": "จักรยาน",
+        "en": "Bicycle",
+        "ms": "Basikal"
+      },
+      "category": "equipment",
+      "price": 900,
+      "stack": 1,
+      "icon": "bicycle",
+      "desc": {
+        "th": "ปั่นส่งของได้ไวขึ้นเยอะ",
+        "en": "Deliver much faster"
+      },
+      "equip": {
+        "slot": "vehicle",
+        "stats": {
+          "speed": 0.4
+        }
+      },
+      "rarity": "rare",
+      "tags": [
+        "bicycle"
+      ]
+    },
+    {
+      "id": "basket",
+      "name": {
+        "th": "ตะกร้าหน้ารถ",
+        "en": "Delivery basket",
+        "ms": "Bakul basikal"
+      },
+      "category": "equipment",
+      "price": 120,
+      "stack": 1,
+      "icon": "basket",
+      "equip": {
+        "slot": "accessory",
+        "stats": {
+          "carry": 4
+        }
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "straw_hat",
+      "name": {
+        "th": "หมวกสาน",
+        "en": "Woven hat",
+        "ms": "Topi anyaman"
+      },
+      "category": "clothing",
+      "price": 70,
+      "stack": 1,
+      "icon": "straw_hat",
+      "equip": {
+        "slot": "head",
+        "stats": {
+          "heat": 2
+        }
+      }
+    },
+    {
+      "id": "pha_khao_ma",
+      "name": {
+        "th": "ผ้าขาวม้า",
+        "en": "Pha khao ma cloth",
+        "ms": "Kain pha khao ma"
+      },
+      "category": "textile",
+      "price": 60,
+      "stack": 1,
+      "icon": "pha_khao_ma",
+      "equip": {
+        "slot": "accessory",
+        "stats": {
+          "heat": 1
+        }
+      }
+    },
+    {
+      "id": "broom",
+      "name": {
+        "th": "ไม้กวาด",
+        "en": "Broom",
+        "ms": "Penyapu"
+      },
+      "category": "tool",
+      "price": 50,
+      "stack": 1,
+      "icon": "broom",
+      "equip": {
+        "slot": "hand"
+      }
+    },
+    {
+      "id": "umbrella",
+      "name": {
+        "th": "ร่มบ่อสร้าง",
+        "en": "Paper umbrella",
+        "ms": "Payung kertas"
+      },
+      "category": "equipment",
+      "price": 140,
+      "stack": 1,
+      "icon": "umbrella",
+      "equip": {
+        "slot": "hand",
+        "stats": {
+          "rain": 3
+        }
+      },
+      "rarity": "uncommon"
+    },
+    {
+      "id": "letter",
+      "name": {
+        "th": "จดหมาย",
+        "en": "Letter",
+        "ms": "Surat"
+      },
+      "category": "key",
+      "price": 0,
+      "stack": 1,
+      "icon": "letter",
+      "desc": {
+        "th": "จดหมายจากที่ทำการไปรษณีย์",
+        "en": "Mail from the post office"
+      },
+      "sellable": false
+    }
+  ],
+  "shops": [
+    {
+      "id": "market",
+      "name": {
+        "th": "ตลาดเช้า",
+        "en": "Morning market",
+        "ms": "Pasar pagi"
+      },
+      "keeper": "vendor",
+      "buyMod": 1.0,
+      "sellMod": 0.5,
+      "buys": [
+        "food",
+        "ingredient",
+        "drink"
+      ],
+      "tags": [
+        "market"
+      ],
+      "stock": [
+        {
+          "item": "mango_sticky_rice",
+          "qty": 6,
+          "restock": 1
+        },
+        {
+          "item": "thai_tea",
+          "qty": -1
+        },
+        {
+          "item": "sticky_rice",
+          "qty": -1
+        },
+        {
+          "item": "mango",
+          "qty": 12,
+          "restock": 1
+        },
+        {
+          "item": "banana",
+          "qty": 10,
+          "restock": 1
+        },
+        {
+          "item": "kanom_chan",
+          "qty": 5,
+          "restock": 1
+        },
+        {
+          "item": "nam_pan",
+          "qty": -1
+        },
+        {
+          "item": "pla_tu",
+          "qty": 8,
+          "restock": 1
+        },
+        {
+          "item": "morning_glory",
+          "qty": 10,
+          "restock": 1
+        },
+        {
+          "item": "pomelo",
+          "qty": 4,
+          "restock": 2
+        },
+        {
+          "item": "garland",
+          "qty": 6,
+          "restock": 1
+        },
+        {
+          "item": "lotus",
+          "qty": 6,
+          "restock": 1
+        }
+      ]
+    },
+    {
+      "id": "general_store",
+      "name": {
+        "th": "ร้านโชห่วย",
+        "en": "General store",
+        "ms": "Kedai runcit"
+      },
+      "keeper": "shopkeeper",
+      "buyMod": 1.1,
+      "sellMod": 0.4,
+      "tags": [
+        "store"
+      ],
+      "tagMods": {
+        "bicycle": 0.95
+      },
+      "stock": [
+        {
+          "item": "rice_bag",
+          "qty": -1
+        },
+        {
+          "item": "fish_sauce",
+          "qty": -1
+        },
+        {
+          "item": "egg",
+          "qty": 30,
+          "restock": 1
+        },
+        {
+          "item": "chili",
+          "qty": -1
+        },
+        {
+          "item": "coconut",
+          "qty": 8,
+          "restock": 2
+        },
+        {
+          "item": "candle",
+          "qty": -1
+        },
+        {
+          "item": "balm",
+          "qty": 10,
+          "restock": 3
+        },
+        {
+          "item": "patch_kit",
+          "qty": 5,
+          "restock": 3
+        },
+        {
+          "item": "wheel",
+          "qty": 2,
+          "restock": 7
+        },
+        {
+          "item": "chain",
+          "qty": 2,
+          "restock": 7
+        },
+        {
+          "item": "bike_bell",
+          "qty": 3,
+          "restock": 7
+        },
+        {
+          "item": "basket",
+          "qty": 1
+        },
+        {
+          "item": "straw_hat",
+          "qty": 2
+        },
+        {
+          "item": "pha_khao_ma",
+          "qty": 4
+        },
+        {
+          "item": "broom",
+          "qty": 2
+        },
+        {
+          "item": "umbrella",
+          "qty": 1
+        },
+        {
+          "item": "krathong",
+          "qty": 6,
+          "restock": 1
+        },
+        {
+          "item": "khom_loi",
+          "qty": 4,
+          "restock": 1
+        },
+        {
+          "item": "teh_tarik",
+          "qty": -1
+        },
+        {
+          "item": "roti",
+          "qty": 6,
+          "restock": 1
+        }
+      ]
+    }
+  ],
+  "loot": [
+    {
+      "id": "delivery_tip",
+      "name": {
+        "th": "ทิปจากลูกค้า",
+        "en": "Delivery tip"
+      },
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 4
+        },
+        {
+          "item": "mango",
+          "weight": 3,
+          "min": 1,
+          "max": 2
+        },
+        {
+          "item": "banana",
+          "weight": 3,
+          "min": 1,
+          "max": 3
+        },
+        {
+          "item": "kanom_chan",
+          "weight": 2
+        },
+        {
+          "item": "garland",
+          "weight": 1
+        },
+        {
+          "item": "kurma",
+          "weight": 1,
+          "min": 2,
+          "max": 4
+        }
+      ]
+    },
+    {
+      "id": "market_basket",
+      "name": {
+        "th": "ตะกร้าตลาด",
+        "en": "Market basket"
+      },
+      "rolls": [
+        2,
+        3
+      ],
+      "entries": [
+        {
+          "item": "egg",
+          "weight": 3,
+          "min": 2,
+          "max": 6
+        },
+        {
+          "item": "chili",
+          "weight": 3,
+          "min": 3,
+          "max": 8
+        },
+        {
+          "item": "morning_glory",
+          "weight": 2,
+          "min": 1,
+          "max": 2
+        },
+        {
+          "item": "coconut",
+          "weight": 2
+        },
+        {
+          "item": "pla_tu",
+          "weight": 1
+        }
+      ],
+      "guaranteed": [
+        {
+          "item": "sticky_rice",
+          "n": 1
+        }
+      ]
+    },
+    {
+      "id": "scrap_pile",
+      "name": {
+        "th": "กองของเก่าหลังร้านซ่อม",
+        "en": "Repair-shop scrap pile"
+      },
+      "rolls": 2,
+      "entries": [
+        {
+          "weight": 6
+        },
+        {
+          "item": "bike_bell",
+          "weight": 2
+        },
+        {
+          "item": "chain",
+          "weight": 1
+        },
+        {
+          "item": "patch_kit",
+          "weight": 2
+        },
+        {
+          "item": "wheel",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "recipes": [
+    {
+      "id": "bicycle",
+      "name": {
+        "th": "ประกอบจักรยาน",
+        "en": "Assemble a bicycle"
+      },
+      "station": "workbench",
+      "time": 30,
+      "inputs": [
+        {
+          "item": "wheel",
+          "n": 2
+        },
+        {
+          "item": "chain",
+          "n": 1
+        },
+        {
+          "item": "bike_bell",
+          "n": 1
+        }
+      ],
+      "outputs": [
+        {
+          "item": "bicycle",
+          "n": 1
+        }
+      ]
+    },
+    {
+      "id": "mango_sticky_rice",
+      "name": {
+        "th": "ทำข้าวเหนียวมะม่วง",
+        "en": "Make mango sticky rice"
+      },
+      "station": "kitchen",
+      "time": 10,
+      "inputs": [
+        {
+          "item": "sticky_rice",
+          "n": 1
+        },
+        {
+          "item": "mango",
+          "n": 1
+        },
+        {
+          "item": "coconut",
+          "n": 1
+        }
+      ],
+      "outputs": [
+        {
+          "item": "mango_sticky_rice",
+          "n": 2
+        }
+      ]
+    },
+    {
+      "id": "krathong",
+      "name": {
+        "th": "ทำกระทง",
+        "en": "Fold a krathong"
+      },
+      "station": "craft_mat",
+      "time": 15,
+      "inputs": [
+        {
+          "item": "lotus",
+          "n": 1
+        },
+        {
+          "item": "candle",
+          "n": 1
+        },
+        {
+          "item": "garland",
+          "n": 1
+        }
+      ],
+      "outputs": [
+        {
+          "item": "krathong",
+          "n": 1
+        }
+      ]
+    }
+  ]
+}

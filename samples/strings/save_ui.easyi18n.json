@@ -1,0 +1,160 @@
+{
+  "format": "easyi18n/1",
+  "id": "save_ui",
+  "source": "th",
+  "locales": [
+    "th",
+    "en",
+    "ms"
+  ],
+  "strings": {
+    "lang.en": {
+      "th": "English",
+      "note": "language name",
+      "fixed": true
+    },
+    "lang.ms": {
+      "th": "Bahasa Melayu",
+      "note": "language name",
+      "fixed": true
+    },
+    "lang.th": {
+      "th": "ไทย",
+      "note": "language name in its own script",
+      "fixed": true
+    },
+    "lang.title": {
+      "th": "ภาษา",
+      "en": "Language",
+      "ms": "Bahasa",
+      "note": "settings"
+    },
+    "save.auto": {
+      "th": "บันทึกอัตโนมัติ {n}",
+      "en": "Autosave {n}",
+      "ms": "Simpanan auto {n}",
+      "note": "autosave slot name"
+    },
+    "save.autosaving": {
+      "th": "กำลังบันทึกอัตโนมัติ…",
+      "en": "Autosaving…",
+      "ms": "Menyimpan secara auto…",
+      "note": "toast"
+    },
+    "save.back": {
+      "th": "กลับ",
+      "en": "Back",
+      "ms": "Kembali",
+      "note": "button"
+    },
+    "save.corrupt": {
+      "th": "ไฟล์เซฟเสียหาย",
+      "en": "This save is damaged",
+      "ms": "Fail simpanan rosak",
+      "note": "error"
+    },
+    "save.day": {
+      "th": "วันที่ {day}",
+      "en": "Day {day}",
+      "ms": "Hari {day}",
+      "note": "slot summary"
+    },
+    "save.delete": {
+      "th": "ลบเซฟนี้ไหม",
+      "en": "Delete this save?",
+      "ms": "Padam simpanan ini?",
+      "note": "confirm"
+    },
+    "save.empty": {
+      "th": "ว่าง",
+      "en": "Empty",
+      "ms": "Kosong",
+      "note": "empty slot"
+    },
+    "save.load_title": {
+      "th": "โหลดเกม",
+      "en": "Load game",
+      "ms": "Muat permainan",
+      "note": "screen title"
+    },
+    "save.loaded": {
+      "th": "โหลดแล้ว",
+      "en": "Loaded",
+      "ms": "Dimuatkan",
+      "note": "toast"
+    },
+    "save.migrated": {
+      "th": "อัปเดตเซฟจากเวอร์ชัน {from} แล้ว",
+      "en": "Updated the save from version {from}",
+      "ms": "Simpanan dikemas kini dari versi {from}",
+      "note": "info"
+    },
+    "save.money": {
+      "th": "{money} บาท",
+      "en": "{money} baht",
+      "ms": "{money} baht",
+      "note": "slot summary"
+    },
+    "save.no": {
+      "th": "ไม่",
+      "en": "No",
+      "ms": "Tidak",
+      "note": "button"
+    },
+    "save.overwrite": {
+      "th": "บันทึกทับช่องที่ {n} ไหม",
+      "en": "Overwrite slot {n}?",
+      "ms": "Tulis ganti slot {n}?",
+      "note": "confirm"
+    },
+    "save.playtime": {
+      "th": "เล่นไป {h} ชม. {m} นาที",
+      "en": "Played {h} h {m} min",
+      "ms": "Main {h} jam {m} min",
+      "note": "slot summary"
+    },
+    "save.quick": {
+      "th": "บันทึกด่วน",
+      "en": "Quick save",
+      "ms": "Simpan pantas",
+      "note": "quick slot name"
+    },
+    "save.saved": {
+      "th": "บันทึกแล้ว",
+      "en": "Saved",
+      "ms": "Disimpan",
+      "note": "toast"
+    },
+    "save.slot": {
+      "th": "ช่องที่ {n}",
+      "en": "Slot {n}",
+      "ms": "Slot {n}",
+      "note": "manual slot name",
+      "max": 14
+    },
+    "save.title": {
+      "th": "บันทึกเกม",
+      "en": "Save game",
+      "ms": "Simpan permainan",
+      "note": "screen title"
+    },
+    "save.too_new": {
+      "th": "เซฟนี้มาจากเกมเวอร์ชันใหม่กว่า",
+      "en": "This save is from a newer version of the game",
+      "ms": "Simpanan ini dari versi permainan yang lebih baharu",
+      "note": "error"
+    },
+    "save.used_backup": {
+      "th": "ไฟล์เซฟเสียหาย โหลดจากไฟล์สำรองแทน",
+      "en": "Save was damaged; loaded the backup",
+      "ms": "Fail rosak; sandaran dimuatkan",
+      "note": "warning"
+    },
+    "save.yes": {
+      "th": "ใช่",
+      "en": "Yes",
+      "ms": "Ya",
+      "note": "button"
+    }
+  }
+}

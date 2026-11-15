@@ -1,0 +1,80 @@
+// ต้นส่งของรอบหมู่บ้าน — Easy Dialogue demo (Thai village delivery)
+// Cast: Easy Sprite side-view town characters · background: Easy Scene thai_village_street
+@title ต้นส่งของรอบหมู่บ้าน
+@id village_delivery
+@start market
+@box teak
+@var delivered = 0
+@var coins = 0
+@var mango = false
+
+@char kid "ต้น" portrait=town_kid color=#f4ae3d voice=th_boy
+@char vendor "ป้าแดง" portrait=town_vendor color=#e5806c side=right voice=th_auntie
+@char monk "หลวงพี่" portrait=town_monk color=#f0a030 side=right voice=th_monk
+@char farmer "ลุงมี" portrait=town_farmer color=#79c48a side=right voice=th_uncle
+@char student "พี่ฝน" portrait=town_student color=#8fc7e8 side=right voice=th_girl
+@char elder "ตาเพิ่ม" portrait=town_elder color=#cdb492 side=right voice=th_grandpa
+
+=== market #intro
+@camera market
+> เช้าวันเสาร์ ตลาดหน้าหมู่บ้านคึกคักกว่าทุกวัน
+vendor [happy]: ต้นจ๋า มาพอดีเลย ช่วยป้าส่งของให้ลูกค้าสามเจ้าหน่อยได้ไหม
+kid [surprised]: ตั้งสามเจ้าเลยเหรอครับป้าแดง
+vendor: ข้าวเหนียวมะม่วงถวายหลวงพี่ ผักบุ้งให้ลุงมี แล้วก็ยาหม่องที่ผู้ใหญ่บ้านฝากให้ตาเพิ่มจ้ะ
+* ได้เลยครับ! เดี๋ยวผมจัดให้
+    vendor [happy]: ขอบใจจ้ะ นี่ค่าขนมสิบบาทนะ
+    ~ coins += 10
+    -> temple
+* ขอแวะซื้อน้ำปั่นก่อนได้ไหมครับ
+    vendor [thinking]: ไปเร็วๆ นะลูก เดี๋ยวข้าวเหนียวจะเย็นหมด
+    ~ coins += 5
+    -> temple
+* วันนี้ผมไม่ว่างครับ -> refuse
+
+=== refuse
+vendor [sad]: ไม่เป็นไรจ้ะ ไว้วันหลังมาช่วยป้านะ
+-> END
+
+=== temple
+@camera temple
+> ต้นวิ่งผ่านร้านก๋วยเตี๋ยวไปจนถึงหน้าวัด
+monk [happy]: เจริญพร ต้น วันนี้มาแต่เช้าเลยนะ
+kid: ป้าแดงฝากข้าวเหนียวมะม่วงมาถวายครับหลวงพี่
+~ delivered += 1
+monk: อนุโมทนา ฝากขอบใจป้าแดงด้วยนะ
+-> farm
+
+=== farm
+farmer [thinking]: ผักบุ้งของลุงมาถึงแล้วเหรอ นึกว่าจะลืมซะแล้ว
+* ส่งผักบุ้งให้ลุงมี
+    ~ delivered += 1
+    farmer [happy]: ขอบใจมากหลาน เอามะม่วงไปฝากตาเพิ่มลูกหนึ่งสิ
+    ~ mango = true
+* แอบชิมผักบุ้งก่อน
+    farmer [angry]: เฮ้ย! นั่นผักบุ้งของลุงนะ
+    kid [shy]: ขอโทษครับลุง... ผมแค่หิวนิดหน่อย
+    ~ delivered += 1
+student [happy]: ต้น! วิ่งเร็วจัง จะไปไหนเหรอ
+kid: ไปบ้านตาเพิ่มครับพี่ฝน ส่งของไปแล้ว {delivered} ที่ เหลืออีกที่เดียว
+-> elder
+
+=== elder
+@camera elder_house
+elder [thinking]: ใครมาน่ะ... อ้อ ต้นนี่เอง
+~ delivered += 1
+if mango:
+    kid [happy]: ลุงมีฝากมะม่วงมาด้วยครับตา
+    elder [happy]: ใจดีจริงหลานคนนี้ ตาให้ค่าขนมเพิ่มอีกห้าบาท
+    ~ coins += 5
+else:
+    elder: ขอบใจนะหลาน กลับบ้านดีๆ ระวังรถด้วยล่ะ
+-> ending
+
+=== ending
+if delivered >= 3:
+    vendor [happy]: ส่งครบ {delivered} ที่แล้ว เก่งมากต้น! วันนี้ได้ค่าขนมทั้งหมด {coins} บาท
+    kid [happy]: เย้! พรุ่งนี้ผมมาช่วยอีกนะครับ
+    @sfx fanfare
+else:
+    vendor [sad]: ยังส่งไม่ครบเลยนะต้น
+-> END
